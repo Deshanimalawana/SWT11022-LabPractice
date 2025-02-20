@@ -1,12 +1,11 @@
 #include <stdio.h>
 int main()
- {
-     float payrate;
-     int hours;
-     printf("enter  total  worked hours:");
-     scanf("%d" , &hours);
-     printf("enter pay rate:");
-     scanf("%f" , &payrate);
-     printf("your pay rate: %.2f, worked hours: %d\n",payrate,hours);
-     return 0;
- }
+{
+    float price  = 99.99;
+    int quantity = 4;
+    float total = price*quantity;
+
+    printf("total:%.2f\n",total);
+    return 0;
+
+}
