@@ -1,15 +1,16 @@
 #include <stdio.h>
-int main(){
-    float payRate;
-    int hours;
-    printf("Enter total worked hours: ");
-    scanf("%d", &hours);
 
-    printf("Enter pay rate: ");
-    scanf("%f", &payRate);
-    printf("Your Pay Rate: %.2f, Worked hours: %d\n", payRate,hours);
-    total=("payRate+hours");
-    printf("Total: %.2f",total");
+int main() {
+    // Variable declaration and initialization
+    double length = 25.12428;  // Length of the rectangle
+    double width = 12.59;      // Width of the rectangle
+    double area;               // Variable to store the area
+
+    // Calculating the area
+    area = length * width;
+
+    // Printing the output with four decimal places
+    printf("Area of the rectangle: %.4f cm²\n", area);
 
     return 0;
 }
