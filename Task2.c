@@ -5,7 +5,7 @@ int main() { // Added main() function
     int hours;
 
     // Corrected printf statements
-    printf("Enter your worked hours: ");
+    printf("Enter your worked hours: "):
     scanf("%d", &hours);
 
     printf("Enter pay rate: ");
