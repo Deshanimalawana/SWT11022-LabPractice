@@ -13,7 +13,7 @@ int main(){
     struct Book myBook;
 strcpy(myBook.title,"The catcher in the Rye");
 strcpy(myBook.author,"J.D.Salinger");
-myBook.price-12.99;
+myBook.price=12.99;
 
 printf("Book title:%s\n",myBook.title);
 printf("Author:%s\n",myBook.author);
