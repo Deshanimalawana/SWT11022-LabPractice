@@ -1,10 +1,6 @@
-#include <stdio.h>
- int main () {
-    int quentity=4;
-    float price=59.999;
-    float total=quentity*price;
-    printf("Total:%f",total);
+#include <studio.h>
+int main(){
 
-    return 0;
-
- }
+  printf("welcome to the fundamental of programming")
+rutern 0;
+}
