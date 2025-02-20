@@ -5,7 +5,7 @@ int main()
     float tempreture = 6754.43545;
     char grade = 'A';
 
-    printf("Registration No : %d\nTemperature : %.3f\nGrade : %c", reg, tempreture, grade);
+    printf("Registration No:%d\nTemperature :%.3f\nGrade:%c", reg, tempreture, grade);
 
     return 0;
 }
