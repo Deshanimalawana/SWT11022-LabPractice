@@ -1,8 +1,8 @@
-#include <st.h>
+#include <string.h>
 #include <stdio.h>
 
-struct book{
-    char titale [100];
+struct Book{
+    char title [100];
     char author [50];
     double price;
 };
@@ -14,7 +14,7 @@ int main () {
     myBook.price = 15.99;
 
     printf("Book Title: %s\n", myBook.title);
-    printf("Arther: %s\n", myBook.auther);
-    printf("Price: %s\n", myBook.price);
+    printf("Author: %s\n", myBook.author);
+    printf("Price: %2f\n", myBook.price);
 }
 
