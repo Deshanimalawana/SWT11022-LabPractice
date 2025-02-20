@@ -1,14 +1,10 @@
 #include <stdio.h>
-#include <string.h>
-#include <stdlib.h>
+ int main () {
+    int quentity=4;
+    float price=59.999;
+    float total=quentity*price;
+    printf("Total:%f",total);
 
-int main() {
-    float hours , payment , price;
-    printf("hours");
-    scanf("%f",&hours);
-    printf("payment_for_one_hours");
-    scanf("%f",&payment);
-    price = hours*payment;
-    printf("price=%f", price);
-return 0;
-}
+    return 0;
+
+ }
