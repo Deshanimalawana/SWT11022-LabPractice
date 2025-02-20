@@ -1,20 +1,22 @@
 #include <stdio.h>
 #include <string.h>
-#include <stdlib.h>
 
-int main () {
+
+
 
    struct Book {
    char title[100];
    char author[50];
    double price;
 };
+
+   int main () {
    struct Book myBook;
-   strcpy(myBook.title, “The Catcher in the Rye”);
-   strcpy(myBook.author, “J.D. Salinger”);
+   strcpy(myBook.title, â€œThe Catcher in the Ryeâ€);
+   strcpy(myBook.author, â€œJ.D. Salingerâ€);
    myBook.price = 12.99;
 
-   printf(“Book Title: %s\n”, myBook.title);
-   printf(“Author: %s\n”,myBook.author);
-   printf(“Price: $%.2f\n”,myBook.price);
+   printf(â€œBook Title: %s\nâ€, myBook.title);
+   printf(â€œAuthor: %s\nâ€,myBook.author);
+   printf(â€œPrice: %2f\nâ€,myBook.price);
 }
