@@ -1,6 +1,6 @@
-#include <studio.h>
-int main(){
-
-  printf("welcome to the fundamental of programming")
-rutern 0;
+include <stdio.h>
+int main(void)
+{
+  prntf("Welcome to the fundamentals of programing Session\n");
+return 0;
 }

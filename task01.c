@@ -1,10 +1,16 @@
 #include <stdio.h>
 int main(){
-    int id = 101;
-    char section = 'B';
-    float marks = 89.5;
+    char firstName[20], lastName[20];
+    int birthYear;
 
-    printf("ID:%d,Section:%c,Marks:%.2f\n",id,section,marks);
+    printf("What is your first name?");
+    scanf("%s",&firstName);
+    printf("What is your last name?");
+    scanf("%s",&lastName);
+    printf("What is your birth year?");
+    scanf("%d",&birthYear);
+
+    printf("%s %s was born in %d\n", firstName, lastName, birthYear);
+
     return 0;
-
 }

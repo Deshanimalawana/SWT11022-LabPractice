@@ -1,24 +1,16 @@
 #include <stdio.h>
-#include <string.h>
-#include <stdlib.h>
 int main(){
+    int id = 101;
+    char section = 'B';
+    float marks = 89.5;
 
-    struct Book {
-        char title[100];
-        char author[50];
-        double price;
+    printf("ID:%d,Section:%c,Marks:%.2f\n",id,section,marks);
 
-};
+    float hours = 30 ;
+    int rate = 150;
+    float total = hours*rate;
 
-    struct Book myBook;
-        strcpy(myBook.title,"The University");
-        strcpy(myBook.author,"A.H.Kumar");
-        myBook.price = 66.99;
+    printf("Hours:%.2f,Rate:%d,Total:%.2f,\n",hours,rate,total);
 
-        printf("Book Title:%s\n",myBook.title);
-        printf("Book Author:%s\n",myBook.author);
-        printf("Price:s%.2f\n",myBook.price);
-
-   return 0;
-
+    return 0;
 }

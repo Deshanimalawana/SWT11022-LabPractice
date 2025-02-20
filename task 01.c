@@ -1,8 +1,17 @@
 #include <stdio.h>
 int main(){
-    int id=50;
-    float num=20.3253;
-    char grade='A';
-    printf("Price: %d, Num: %.3f, Grade: %c\n",price,num,grade);
+    int id = 101;
+    char section = 'B';
+    float marks = 89.5;
+
+    printf("ID:%d\n",id);
+    printf("Section:%c\n",section);
+    printf("Marks:%.2f\n",marks);
+
+
+
+
+
     return 0;
 }
+
