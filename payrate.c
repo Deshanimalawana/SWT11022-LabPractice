@@ -1,13 +1,10 @@
 #include <stdio.h>
 int main()
 {
-    float payrate;
-    int hours;
-    printf("enter total worked hours");
-    scanf("%d",&hours);
-    printf("print pay rate; ");
-    scanf("%f", &payrate);
-    printf("your pay rate;%2f,worked hours;%d/n",payrate,hours);
+    int id = 101;
+    char section = 'B';
+    float marks = 89.5;
+    printf("ID: %d, Section: %c, Marks: %.2f\n", id, section, marks);
     return 0;
 
 }
