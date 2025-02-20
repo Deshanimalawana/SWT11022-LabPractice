@@ -1,23 +1,16 @@
-#include<stdio.h>
-int main(){
 
- char fname[30];
- char lname[30];
- int bday;
+#include <stdio.h>
+int main() {
 
-printf("What is your first name?");
-scanf("%s",&fname);
-
-printf("What is your last name?");
-scanf("%s",&lname);
-
-printf("What is your birth year?");
-scanf("%d",&bday);
-
-printf("%s %s was born in %d\n", fname, lname, bday);
+// Declare variables for length, width, and area
+float length = 25.12428, width = 12.59, area;
 
 
+    // Calculate the area
+    area = length * width;
 
+    // Print the area with four decimal places
+    printf("The area of the rectangle is: %.4f \n", area);
 
-return 0;
+    return 0;
 }
