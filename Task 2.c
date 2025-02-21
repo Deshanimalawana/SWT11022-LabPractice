@@ -1,10 +1,9 @@
-#include <stdio.h>
-int main(){
+#include<stdio.h>
+int main () {
 
-    float price=59.999;
-    int qt= 4;
-    float total= price* qt;
-    printf("total=%.2f",total);
+int id = 101;
+char section ='B';
+float marks = 89.5;
+printf("ID:%d\n Section:%c\n Marks:%.2f\n", id, section, marks);
 
-    return 0;
 }
