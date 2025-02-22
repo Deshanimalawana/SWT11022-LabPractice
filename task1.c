@@ -4,7 +4,8 @@ int main(){
     char section = 'B';
     float marks = 89.5;
     printf("ID:%d, Section: %c, Marks: %.f\n", id, section, marks);
-
+    return 0;
+}
 
 
 
