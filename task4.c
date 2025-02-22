@@ -5,7 +5,7 @@ int main()  {
     int birthyear;
     printf("what's your first name: ");
     scanf("%s",&firstname);
-    printf("what's your first name: ");
+    printf("what's your Last name: ");
     scanf("%s",&lastname);
     printf("what's your birth year: ");
     scanf("%d",&birthyear);
