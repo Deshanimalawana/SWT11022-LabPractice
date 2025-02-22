@@ -6,23 +6,3 @@ int main(){
     printf("ID:%d, Section: %c, Marks: %.f\n", id, section, marks);
     return 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-}
-
