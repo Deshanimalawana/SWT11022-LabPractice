@@ -1,9 +1,11 @@
 #include <stdio.h>
-int main()
-{
-        float length=25.12428;
-        float width=12.59;
-        float area=length*width;
-        printf("Area of the rectangle:%.4fcm^2\n",area);
-        return 0;
+int main(){
+
+    char X = 'X';
+    char M = 'M';
+    char L = 'L';
+
+    printf("The reverse of %c%c%c is %c%c%c\n",X,M,L,L,M,X);
+
+    return 0;
 }
