@@ -4,7 +4,7 @@ int main() {
     char firstName[50], lastName[50];
     int birthYear;
 
-    // Prompt user for input
+    
     printf("What is your firstname? ");
     scanf("%s", firstName);
 
@@ -14,7 +14,7 @@ int main() {
     printf("What is your birthyear? ");
     scanf("%d", &birthYear);
 
-    // Print the formatted output
+    
     printf("%s %s was born in %d\n", firstName, lastName, birthYear);
 
     return 0;
