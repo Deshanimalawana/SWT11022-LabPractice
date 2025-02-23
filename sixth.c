@@ -1,21 +1,13 @@
-#include <stdio.h>
+#include<stdio.h>
 
-int main()
-{
+int main(){
 
-    char firstName [50];
-    char lastName [50];
-    int birthYear;
+    char str[]="XML";
 
-    printf("What is your first name?");
-    scanf("%s", &firstName);
-    printf("What is your last name?");
-    scanf("%s", &lastName);
-    printf("What is your birthYear?");
-    scanf("%d", &birthYear);
+    printf("The reverse of %s is",str);
+    printf("\t%c%c%c",str[2],str[1],str[0]);
 
-    printf("%s %s was born in %d\n", firstName,lastName,birthYear);
 
-    return 0;
+
 
 }

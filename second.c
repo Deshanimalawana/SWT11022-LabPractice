@@ -1,21 +1,13 @@
-#include <stdio.h>
-
-struct Book{
-char title[100];
-char author[50];
-double price;
-
-};
+#include<stdio.h>
 
 int main(){
-
-struct Book myBook;
-strcpy(myBook.title,"The Catcher in the Rye");
-strcpy(myBook.author,"J.D.Salinger");
-myBook.price=12.99;
-
-printf("Book Title:%s\n", myBook.title);
-printf("Author: %s\n", myBook.author);
-printf("Price:$%.2f\n",myBook.price);
-
+  int hours;
+  float payrate,salary;
+  printf("Enter your work hours:");
+   scanf("%d",&hours);
+   printf("Enter your payrate:");
+   scanf("%f",&payrate);
+   salary=hours*payrate;
+    printf("your salary is :%.2f",salary);
+         return 0;
 }

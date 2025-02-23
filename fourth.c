@@ -1,18 +1,18 @@
-#include <stdio.h>
+#include<stdio.h>
 
-int main()
-{
+int main(){
+  char firstname[50],lastname[50];
+  int birth_year;
 
-    float hoursWorked,payRate,totalSalary;
+  printf("whats is your first name?");
+   scanf("\n %s",&firstname);
+  printf("whats is your last name?");
+   scanf("\n %s",&lastname);
+  printf("what is your birth year?");
+  scanf("\n %d",&birth_year);
 
-    printf("Enter total hours worked");
-    scanf("%f",&hoursWorked);
-    printf("Enter pay rate per hour");
-    scanf("%f",&payRate);
+  printf("%s %s was born in %d\n", firstname,lastname,birth_year);
 
-    totalSalary= hoursWorked*payRate;
-    printf("Total Salary:%.2f\n",totalSalary);
-
-    return 0;
+  return 0;
 
 }
