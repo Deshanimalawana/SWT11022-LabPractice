@@ -1,8 +1,21 @@
 #include <stdio.h>
-int id=101;
-char section='B';
-float marks=89.5;
-int main () {
-    printf("id:%d\t,section:%c\t,marks:%.2f",id,section,marks);
+
+struct Book{
+char title[100];
+char author[50];
+double price;
+
+};
+
+int main(){
+
+struct Book myBook;
+strcpy(myBook.title,"The Catcher in the Rye");
+strcpy(myBook.author,"J.D.Salinger");
+myBook.price=12.99;
+
+printf("Book Title:%s\n", myBook.title);
+printf("Author: %s\n", myBook.author);
+printf("Price:$%.2f\n",myBook.price);
 
 }

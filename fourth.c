@@ -1,19 +1,18 @@
 #include <stdio.h>
-#include <string.h>
-int main () {
-    struct Book {
-    char Title [100];
-    char author [50];
-    double price ;
-    };
 
-    struct Book myBook;
-    strcpy(myBook.Title,"The common man");
-    strcpy(myBook.author,"K.W.Stephen");
-    myBook.price=880.96;
+int main()
+{
 
-    printf("Book Title:%s\n",myBook.Title);
-    printf("Book author:%s\n",myBook.author);
-    printf("Book price:%.2f\n",myBook.price);
+    float hoursWorked,payRate,totalSalary;
+
+    printf("Enter total hours worked");
+    scanf("%f",&hoursWorked);
+    printf("Enter pay rate per hour");
+    scanf("%f",&payRate);
+
+    totalSalary= hoursWorked*payRate;
+    printf("Total Salary:%.2f\n",totalSalary);
+
+    return 0;
 
 }

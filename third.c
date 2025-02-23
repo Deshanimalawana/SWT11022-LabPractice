@@ -1,15 +1,12 @@
 #include <stdio.h>
 
-int main (){
-    int hours;
-    float payrate,salary;
-    printf("Enter your work hours:");
-    scanf("%d",&hours);
-    printf("Enter your payrate:");
-    scanf("%f",&payrate);
-    salary=hours*payrate;
-    printf("your salary is:%.2f",salary);
+int main()
+{
+  int id= 101;
+  char section= 'B';
+  float marks= 89.5;
 
+  printf("ID:%d,Section:%c,Marks:%.2f\n",id,section,marks);
 
 
 }
