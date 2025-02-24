@@ -1,10 +1,12 @@
-#include <stdio.h>
-int main () {
-  int id=101;
-  char section='B';
-  float marks=89.5;
-  printf("ID:%d,section%C,Marks: %.2f\n",id,section,marks);
+#include<stdio.h>
+int main(){
 
-return 0;
+ int marks=54;
+ float Weight=32.5;
+ char grade ='A';
 
-}
+ printf("your marks is : %d\n",marks);
+ printf("your Weight is : %f\n",Weight);
+ printf("your grade is : %c\n",grade);
+ return 0;
+ }

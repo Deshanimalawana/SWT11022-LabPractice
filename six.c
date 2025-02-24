@@ -1,22 +1,15 @@
 #include <stdio.h>
-#include <string.h>
+
+int main() {
+
+    float length = 25.12428, width = 12.59, area;
 
 
+    area = length * width;
 
 
-   struct Book {
-   char title[100];
-   char author[50];
-   double price;
-};
+    printf("The area of the rectangle is: %.4f cm�\n", area);
 
-   int main () {
-   struct Book myBook;
-   strcpy(myBook.title, “The Catcher in the Rye”);
-   strcpy(myBook.author, “J.D. Salinger”);
-   myBook.price = 12.99;
-
-   printf(“Book Title: %s\n”, myBook.title);
-   printf(“Author: %s\n”,myBook.author);
-   printf(“Price: %2f\n”,myBook.price);
+    return 0;
 }
+
