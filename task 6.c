@@ -1,5 +1,5 @@
-# include <stdio.h>
-int main(){
-printf("The reverse of XML is LMX\n");
-return 0;
+#include <stdio.h>
+int main (){
+   printf("the reverse of XML is %c%c%c\n",'L','M','X');
+   return 0;
 }
