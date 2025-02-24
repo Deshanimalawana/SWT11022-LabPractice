@@ -8,7 +8,7 @@ int main(){
     printf("Enter pay rate:");
     scanf("%f", &payrate);
 
-    total=payrate*hours;
+    float total=payrate*hours;
     printf("Total salary:%.2f\n",total);
     return 0;
     }
