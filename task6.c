@@ -1,13 +1,26 @@
 #include <stdio.h>
-  int main(){
-      float legnth=25.12428;
-      float width=12.59;
+int main(){
+    float length = 25.12428;
+    float width = 12.59;
+    float area;
+    area = length * width;
 
-      float area=legnth*width;
-
-      printf("the area of rectangle is: %.4f cm2\n", area);
-
-      return 0;
+    printf("Area of the rectangle = %.4f cm^2\n", area);
+    return 0;
+}
 
 
-  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+

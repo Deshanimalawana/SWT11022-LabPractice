@@ -1,16 +1,20 @@
 #include <stdio.h>
-   int main(){
-       char Firstname[30];
-       char Lastname[30];
-       int birthyear;
+ int main(){
+    char first_name[20];
+    char last_name[20];
+    int birth_year;
 
-       printf("What is your firstname? \n",Firstname);
-       scanf("%s" ,&Firstname);
-       printf("What is your lastname? \n",Lastname);
-       scanf("%s" ,&Lastname);
-       printf("what is your birth day? \n",birthyear);
-       scanf("%d" ,&birthyear);
-       printf("%s %s was born in %d\n",Firstname,Lastname,birthyear);
+    printf("What is your first name?");
+    scanf("%s",first_name);
 
-       return 0;
-   }
+    printf("What is your last name?");
+    scanf("%s",last_name);
+
+    printf("What is your birth year?");
+    scanf("%d",birth_year);
+    printf("%s %s was born in %d.\n",first_name,last_name,birth_year);
+
+    return 0;
+ }
+
+
