@@ -1,16 +1,10 @@
 #include <stdio.h>
-int main(){
-     char firstname[40];
-     char lastname[40];
-     int birthyear;
-     char information[60];
+int main()
+{
+        float length=25.12428;
+        float width=12.59;
+        float area=length*width;
 
-     printf("What is your firstname? ");
-     scanf("%s",firstname);
-     printf("what is your lastname? ");
-     scanf("%s",lastname);
-     printf("What is your birth year? ");
-     scanf("%d",&birthyear);
-     printf("\n%s %s was born in %d",firstname,lastname,birthyear);
-     return 0;
-     }
+        printf("Area of the rectangle:%.4fcm^2\n",area);
+        return 0;
+}

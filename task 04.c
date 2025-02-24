@@ -1,23 +1,16 @@
-#include <stdio.h>
-#include <string.h>
-#include <stdlib.h>
-
-struct Book {
-    char title[100];
-    char author[50];
-    float price;
-    };
-
+ #include <stdio.h>
 int main(){
-    struct Book myBook;
-    strcpy(myBook.title, "A bend in the river");
-    strcpy(myBook.author, "V.S Naipaul");
-    myBook.price= 12.99;
+     char firstname[40];
+     char lastname[40];
+     int birthyear;
+     char information[60];
 
-    printf("Book Title: %s\n", myBook.title);
-    printf("Author: %s\n", myBook.author);
-    printf("price: $%.2f\n", myBook.price);
-
-    return 0;
-
-    }
+     printf("What is your firstname? ");
+     scanf("%s",firstname);
+     printf("what is your lastname? ");
+     scanf("%s",lastname);
+     printf("What is your birth year? ");
+     scanf("%d",&birthyear);
+     printf("%s %s was born in %d\n",firstname,lastname,birthyear);
+     return 0;
+     }
