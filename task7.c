@@ -1,6 +1,22 @@
 #include <stdio.h>
-int main (){
-    char a='X',b='M',c='L';
-    printf("The reverse of %c%c%c is %c%c%c",a,b,c,c,b,a);
+#include <string.h>
+
+struct Book {
+    char title[150];
+    char author[80];
+    double price;
+};
+
+int main(){
+    struct Book Mybook1;
+
+    strcpy(Mybook1.title, " Project Hail Mary");
+    strcpy(Mybook1.author, "Andy Weir");
+    Mybook1.price = 200.50;
+
+    printf("Book Title - %s", Mybook1.title);
+    printf("Book Author - %s", Mybook1.author);
+    printf("Price - %.2f \n", Mybook1.price);
+
     return 0;
 }
