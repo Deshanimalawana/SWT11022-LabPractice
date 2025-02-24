@@ -1,8 +1,17 @@
 #include <stdio.h>
+
 int main(){
-int quantity = 4;
-float price = 59.99;
-float total = quantity*price;
-printf("Total price : %2f\n", total);
-return 0;
+   float hourRate;
+   float workHours;
+
+   printf("Enter Pay rate : ");
+   scanf("%f", &hourRate);
+   printf("Enter Work Hours : ");
+   scanf("%f", &workHours);
+
+   float Salary = hourRate * workHours;
+
+   printf("Salary = %.2f", Salary);
+
+   return 0;
 }
