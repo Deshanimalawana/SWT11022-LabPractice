@@ -9,7 +9,7 @@ int main()  {
     scanf("%s",&lastname);
     printf("what's your birth year: ");
     scanf("%d",&birthyear);
-    printf("%s %s was born in year:%d\n",firstname,lastname,birthyear);
+    printf("%s %s was born in year %d\n",firstname,lastname,birthyear);
     return 0;
 
 }
