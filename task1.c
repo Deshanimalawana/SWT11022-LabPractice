@@ -3,6 +3,6 @@ int main(){
     int id = 101;
     char section = 'B';
     float marks = 89.5;
-    printf("ID:%d, Section: %c, Marks: %.f\n", id, section, marks);
+    printf("ID:%d, Section: %c, Marks: %.2f\n", id, section, marks);
     return 0;
 }
