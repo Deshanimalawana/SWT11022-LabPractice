@@ -1,9 +1,10 @@
 #include <stdio.h>
-int main()
-{
-    int id = 101;
-    char section = 'B';
-    float marks = 89.5;
-    printf("ID: %d,Section: %c, Marks: %.2f\n",id,section,marks);
-    return 0;
+int main() {
+    int count =5;
+    count++; //Increment
+    int total = 10;
+    total += 3; //Add 3 to total
+
+    printf("Updated Count: %d\n", count);
+    printf("Updated Total: %d\n", total);
 }

@@ -1,18 +1,16 @@
 #include <stdio.h>
-
 int main() {
-    int AccountBalance = 5000;         // Valid
-    int account_balance = 4500;        // Valid
-    int secondTransaction = 200;       // i change name from "2ndTransaction"
-    int transaction_Amount = 150;      // i change name from "transaction Amount"
-    int floatAmount = 100;             // i change name from "float"
+    int condition1 = 1; //true
+    int condition2 = 0; //false
+    int condition3 = 1; //true
 
-    // Printing variable values
-    printf("Account Balance: %d\n", AccountBalance);
-    printf("Account Balance (Alternative): %d\n", account_balance);
-    printf("Second Transaction: %d\n", secondTransaction);
-    printf("Transaction Amount: %d\n", transaction_Amount);
-    printf("Float Amount: %d\n", floatAmount);
+    int result1 = condition1 && condition2;
+    int result2 = condition1 || condition3;
+    int result3 = !condition2;
+
+    printf("Result 1: %s\n", result1 ? "true" : "false");
+    printf("Result 2: %s\n", result2 ? "true" : "false");
+    printf("Result 3: %s\n", result3 ? "true" : "false");
 
     return 0;
 }
