@@ -1,15 +1,16 @@
 #include <stdio.h>
-int main(){
-    float length,width,area;
-    printf("enter the length=");
-    scanf("%f",&length);
+int main ()
+{
+    float area,width,length;
 
-    printf("enter the width=");
+    printf("input length-");
+    scanf("%f",&length);
+    printf("input width-");
     scanf("%f",&width);
 
-    area=length*width;
+    area=width*length;
 
-    printf("area of the rectangle:%.4f",area);
+    printf("Area of rectangle= %.4f",area);
+
     return 0;
-
 }

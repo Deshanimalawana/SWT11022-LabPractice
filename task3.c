@@ -1,16 +1,22 @@
 #include <stdio.h>
-int main (){
 
-float payrate;
-int hours;
-printf("Enter the worked hours:");
-scanf("%d",&hours);
+int main(){
 
-printf("Enter the Pay Rate:");
-scanf("%f",&payrate);
+    char name [20]
+    int a,b;
+    float c,f;
+    char val [] = "Welcome";
+    a = 10;
+    const float x= 3.73;
+    printf("Enter Your Name:");
+    scanf("%s",name);
+    printf("%s,"val);
+    printf("\n  Your name is % s.",name);
+    c= 90.0 + 3.0;
+    printf("\n value of c:%f",c);
+    printf("\n value of x:%f",x);
+    printf("\n Hello\t world\n\n");
+    printf("you \n are \n learning \n \`c\`language \n""Do you know c language ? \");
 
-printf("Your pay rate is:%.2f, Worked Hours: %d\n",payrate,hours);
-
-
-return 0;
+    return 0;
 }

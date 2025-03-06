@@ -1,23 +1,17 @@
 #include <stdio.h>
-#include <string.h>
-#include <stdlib.h>
-int main (){
+int main(){
+     char firstname[20];
+     char lastname[20];
+     int birthyear[10];
 
-struct book {
-char title[100];
-char author[50];
-double price;
-};
-struct book mybook;
-strcpy(mybook.title,"maymaralmala");
-strcpy(mybook.author,"don arthel");
-mybook.price=57.89;
+     printf("What is your firstname?: ");
+     scanf("%s", &firstname);
+     printf("What is your lastname?: ");
+     scanf("%s", &lastname);
+     printf("What is your birthyear?: ");
+     scanf("%d", &birthyear);
 
-printf("book title: %s\n",mybook.title);
-printf("book author: %s\n",mybook.author);
-printf("book price: %.2f\n",mybook.price);
-
-return 0;
+       printf( "%s %s was born in %d\n ", firstname, lastname, birthyear);
 
 
 }
