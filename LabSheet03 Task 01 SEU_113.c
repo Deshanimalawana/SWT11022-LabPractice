@@ -16,5 +16,6 @@ grade = 'A+';
 printf("Updated ID is: %d\n",studentID);
 printf("Updated GPA is: %f\n",GPA);
 printf("Updated ID is: %c\n",grade);
+return 0;
 
 }
