@@ -1,24 +1,24 @@
 #include <stdio.h>
 int main() {
+    int studentID;
+    float GPA;
+    char grade;
 
-char initial = "M";
-printf("initial: %c\n",initial);
+    studentID = 12345;
+    GPA = 3.75;
+    grade = 'A';
 
-char grade = "A";
-printf("grade: %c\n",grade);
+    //printf("studentID : %d\n",studentID);
+    //printf("GPA : %.2f\n",GPA);
+    //printf("grade : %c\n",grade);
 
-int number = 100 ;
-printf("Number:%d\n",number);
+    studentID = 54321;
+    GPA = 3.90;
+    char Grade[] = "A+";
 
-float price = 19.1000;
-printf("price: %.2f\n",price);
+    printf("Updated studentID : %d\n",studentID);
+    printf("Updated GPA : %.2f\n",GPA);
+    printf("Updated grade : %s\n",Grade);
 
-
-float temperature = 100;
-printf("temperature: %.1f\n",temperature);
-
-
-
-return 0;
-
+    return 0;
 }
