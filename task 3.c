@@ -1,19 +1,31 @@
-#include<stdio.h>
-#include<stdlib.h>
-int main(){
+#include <stdio.h>
 
-float price=5.99;
-int quantity=3;
-float total=price*quantity;
-printf("total price:%.2f\n",total);
+#define SPEED_OF_LIGHT299792458
+#define GRAVITY9.81
+#define PLANCK_CONSTANT6.626e-34
+int main (){
+
+const float BOLTZMANN_CONSTANT = 1.38e-23;
+const int ABSOLUTE_ZERO = 273;
+const float PLANK_CONTANT =6.626e-34;
+
+printf("values of the BOLTZMANN_CONSTANT:%e\n",BOLTZMANN_CONSTANT);
+printf("values of the ABSOLUTE_ZERO:%e\n",ABSOLUTE_ZERO);
+printf("values of the PLANK_CONTANT:%e\n",PLANK_CONTANT);
 
 
-float payrate,hours;
-printf("enter total worked hours:");
-scanf("%d",&hours);
+    return 0;
 
-printf("enter pay rate:");
-scanf("%f",&payrate);
-printf("your pay rate:%.2f,worked hours:%d\n",payrate,hours);
+
+
+
 }
+
+
+
+
+
+
+
+
 
