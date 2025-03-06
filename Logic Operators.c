@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main()
+
+
+{
+
+
+    int condition1 = 1;
+    int condition2 = 0;
+    int condition3 = 1;
+
+
+    int result1 = condition1 && condition2 ;
+    int result2 = condition1 || condition3 ;
+    int result3 = !condition2;
+        printf("Result1 : %s\n",result1 ? "true" : "fales") ;
+        printf("Result2: %s\n",result2? "true" : "fales") ;
+        printf("Result3: %s\n",result3? "true" : "fales") ;
+
+return 0;
+}
