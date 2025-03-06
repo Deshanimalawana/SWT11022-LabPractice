@@ -1,23 +1,25 @@
-#include<stdio.h>
-#include<stdlib.h>
-#include<string.h>
-struct Book{
-char title[100];
-char author[50];
-double price;
-};
+#include <stdio.h>
+int main (){
+    int accountBalance = 5000;
+    int account_balance = 4500;
+    int secondTransaction = 200;
+    int transactionAmount = 150;
+    int floatvalue = 100;
+
+    printf("Bank Transaction Details:\n");
+    printf("Account Balance:%d\n",accountBalance);
+    printf("secondary Account Balance:%d\n",account_balance);
+    printf("Transaction Amount:%d\n",transactionAmount);
+    printf("Float Value :%d\n",floatvalue);
+
+    return 0;
 
 
 
-int main(){
-    struct Book myBook;
-strcpy(myBook.title,"The catcher in the Rye");
-strcpy(myBook.author,"J.D.Salinger");
-myBook.price-12.99;
 
-printf("Book title:%s\n",myBook.title);
-printf("Author:%s\n",myBook.author);
-printf("Price:$%.2fn",myBook.price);
+
+
+
 
 
 }
