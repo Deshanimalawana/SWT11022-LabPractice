@@ -1,9 +1,11 @@
 #include <stdio.h>
-int main() {
+int main (){
 
-    int id = 101;
-    char section = 'B';
-    float marks = 89.5;
-    printf("ID:%d,Section:%c,Marks:%.2f\n",id,section,marks);
-    return 0;
+int studentID=54321;
+float GPA=3.90;
+char grade='A';
+
+printf("studentID = %d\nGPA = %.2f\ngrade = %c",studentID,GPA,grade);
+
+return 0;
 }
