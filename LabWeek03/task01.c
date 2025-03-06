@@ -12,7 +12,7 @@ printf("%d,%.2f,%c\n",studentID,GPA,grade);
 
 studentID=54321;
 GPA=3.90;
-grade='A+';
+grade='B';
 
 printf("%d,%.2f,%c",studentID,GPA,grade);
 
