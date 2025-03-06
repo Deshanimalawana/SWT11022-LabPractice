@@ -9,21 +9,9 @@ int main(){
     scanf("%d %d %d",&a, &b ,&c);
 
     int largest;
-        if (a >= b && a >= c){
-            largest = a;
-        }
-        else if (b >=a && b>=c){
-            largest = b;
-        }
-        else {
-            largest = c;
-        }
-    printf("largest number using comparison operator is: %d\n",largest);
-
-
 
     largest = (a>=b && a >=c) ? a:(b>= a && b >=c) ?  b : c;
-    printf("largest number using ternary operator is: %d\n",largest);
+    printf("largest number is: %d\n",largest);
 
 
     float average = (a+b+c)/3.0;
