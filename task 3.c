@@ -1,19 +1,16 @@
-#include<stdio.h>
-#include<stdlib.h>
-int main(){
+#include <stdio.h>
+int main() {
+     int AccountBalance=5000;
+     int account_balance=4500;
+     int secondTransaction=200;
+     int transaction_Amount=150;
+     int amount=100;
 
-float price=5.99;
-int quantity=3;
-float total=price*quantity;
-printf("total price:%.2f\n",total);
+     printf("AccountBalance: %d\n",AccountBalance)
+     printf("account balance: %d\n",account_balance);
+     printf("secondTransaction: %d\n",ndTransaction);
+     printf("transaction Amount: %d\n",transaction_Amount);
+     printf("amount: %d\n",amount);
+     return 0;
 
-
-float payrate,hours;
-printf("enter total worked hours:");
-scanf("%d",&hours);
-
-printf("enter pay rate:");
-scanf("%f",&payrate);
-printf("your pay rate:%.2f,worked hours:%d\n",payrate,hours);
 }
-
