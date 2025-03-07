@@ -7,9 +7,13 @@ int main(){
     const float BOLTZMANN_CONSTANT = 1.38e-23;
     const int ABSOLUTE_ZERO = -273;
 
-    printf("The speed of light:%d ms\n",SPEED_OF_LIGHT);
+    printf("Speed of light:%d ms\n",SPEED_OF_LIGHT);
     printf("Gravity:%.2f ms2\n",GRAVITY);
-    printf("Planck constant:%.5e Js\n",PLANCK_CONSTANT);
+    printf("Planck constant:%.3e Js\n",PLANCK_CONSTANT);
+    printf("Boltzmann Constant:%.2e\n",BOLTZMANN_CONSTANT);
+    printf("Absolute Zero:%d\n",ABSOLUTE_ZERO);
+
+    return 0;
 
 
 
