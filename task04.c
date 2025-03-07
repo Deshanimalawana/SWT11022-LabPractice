@@ -1,24 +1,17 @@
 #include <stdio.h>
-#include <string.h>
-#include <stdlib.h>
-int main(){
 
-    struct Book {
-        char title[100];
-        char author[50];
-        double price;
+int main()
+{
+    int a= 5, b=10, c=15;
 
-};
+    int largest = (a>b && a>c) ? a : (b>a && b>c)? b:c;
+    printf("the largest number is %d\n", largest);
 
-    struct Book myBook;
-        strcpy(myBook.title,"The University");
-        strcpy(myBook.author,"A.H.Kumar");
-        myBook.price = 66.99;
+    float average = (a+b+c)/3.0;
+    printf ("The average of the three numbers is : %.2f\n", average);
 
-        printf("Book Title:%s\n",myBook.title);
-        printf("Book Author:%s\n",myBook.author);
-        printf("Price:s%.2f\n",myBook.price);
 
-   return 0;
+    return 0;
+
 
 }
