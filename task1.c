@@ -9,9 +9,9 @@ int main() {
     GPA=3.75;
     grade='A';
 
-   /*printf("studentID:%d\n",studentID);
+    printf("studentID:%d\n",studentID);
     printf("GPA:%.2f\n",GPA);
-    printf("grade:%c",grade);*/
+    printf("grade:%c",grade);
 
     studentID=54321;
     GPA=3.90;
