@@ -1,26 +1,28 @@
 #include <stdio.h>
 int main(){
-int studentid;
-float GPA;
-char grade;
-char plus;
+    int studentID;
+    float GPA;
+    char grade;
+    char plus;
 
-studentid = 12345;
-GPA = 3.75;
-grade = 'A';
+    studentID = 12345;
+    GPA = 3.75;
+    grade = 'A';
 
-printf("Your studentID is: %d\n", studentid);
-printf("Your GPA is: %f\n", GPA);
-printf("Your Grade is: %c\n\n", grade);
+    printf("Your student ID is: %d\n", studentID);
+    printf("Your GPA is: %.2f\n", GPA);
+    printf("Your Grade is: %c\n", grade);
 
-studentid = 54321;
-GPA = 3.90;
-grade = 'A';
-plus = '+';
+    studentID = 54321;
+    GPA = 3.90;
+    grade = 'A';
+    plus = '+';
 
-printf("Updated studentID is: %d\n", studentid);
-printf("Updated GPA is: %f\n", GPA);
-printf("Updated Grade is: %c%c\n", grade, plus);
+    printf("Updated student ID is: %d\n", studentID);
+    printf("Updated GPA is: %.2f\n", GPA);
+    printf("Updated grade is: %c%c\n", grade, plus);
 
 return 0;
 }
+
+
