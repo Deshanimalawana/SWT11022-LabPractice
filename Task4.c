@@ -1,21 +1,20 @@
 #include <stdio.h>
-#include <string.h>
-#include <stdlib.h>
-int main(){
+int main (){
+    int a = 10, b = 25, c = 15;
 
-    struct Book{
-        char title[100];
-        char author[50];
-        double price;
-    };
-    struct Book myBook;
-    strcpy(myBook.title,"A Changed Man");
-    strcpy(myBook.author,"T Hardy");
-    myBook.price=50.23;
+    int largest;
+    if (a >= b && a >= c) {
+        largest = a;
+    } else if (b >= a && b >= c) {
+        largest = b;
+    } else {
+        largest = c;
+    }
 
-    printf("Book Title: %s\n",myBook.title);
-    printf("Book Author: %s\n",myBook.author);
-    printf("Price:$%2f\n", myBook.price);
+     printf("The largest number is: %d\n", (a >= b && a >= c) ? a : (b >= a && b >= c) ? b : c);
+      float average = (a + b + c) / 3.0;
+
+     printf("The average of the three numbers is: %.2f\n", average);
 
     return 0;
 }
