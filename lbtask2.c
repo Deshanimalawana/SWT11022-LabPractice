@@ -5,11 +5,11 @@
 int main (){
     const float BOLTZMANN_CONSTANT = 1.38e-23;
     const int ABSOLUTE_ZERO = -273 ;
-printf("Speed of light: %d\n", SPEED_OF_LIGHT);
-printf("Gravity: %.2f\n", GRAVITY) ;
-printf("Planck Constant: %.4e\n", PLANCK_CONSTANT);
-printf ("Boltzmann constant: %g\n", BOLTZMANN_CONSTANT);
-printf("Absolute zero: %d\n", ABSOLUTE_ZERO);
+printf("Speed of light: %d m/s\n", SPEED_OF_LIGHT);
+printf("Gravity: %.2f m/s^2\n", GRAVITY) ;
+printf("Planck Constant: %.4e J.s\n", PLANCK_CONSTANT);
+printf ("Boltzmann constant: %g J/k\n", BOLTZMANN_CONSTANT);
+printf("Absolute zero: %d Celsius\n", ABSOLUTE_ZERO);
 return 0;
 
 }
