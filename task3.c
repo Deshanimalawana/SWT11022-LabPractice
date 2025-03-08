@@ -1,11 +1,15 @@
 #include <stdio.h>
-int main() {
-    float payRate;
-    int hours;
-    printf("Enter total worked hours: ");
-    scanf("%d", &hours);
-    printf("Enter pay rate: ");
-    scanf("%f", &payRate);
-    printf("Your Pay Rate: %.2f, Worked Hours: %d\n", payRate, hours);
-    return 0;
+int main(){
+int x=8;
+int y=12;
+
+int AND_result = x & y ;
+int OR_result = x | y ;
+int XOR_result = x ^ y ;
+
+ printf("Bitwise AND (x&y) : %d\n",AND_result);
+ printf("Bitwise OR (x|y) : %d\n",OR_result);
+ printf("Bitwise XOR (x^y) : %d\n",XOR_result);
+
+return 0;
 }
