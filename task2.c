@@ -1,9 +1,16 @@
 #include <stdio.h>
-int main(){
-    int quantity = 4;
-    float price = 59.99 ;
-    float total = quantity*price;
-    printf("Total price:%.2f\n",total);
+#include <stdbool.h>
+int main (){
+    bool israiny_day = false;
+    bool isholiday = true;
+    bool isweekend = false;
+
+    bool can_go_trip = (!israiny_day && (isholiday || isweekend));
+    printf("Can student go trip? %s \n",can_go_trip ? "Yes":"No");
+
+int mark =70;
+mark += 5;
+printf("Updated mark: %d \n",mark);
+
     return 0;
 }
-
