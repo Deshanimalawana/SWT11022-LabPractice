@@ -1,14 +1,13 @@
 #include <stdio.h>
 int main(){
-int x = 10, y = 5;
-int isgreaterthan = (x>y);
-int isequal = (x==y);
-int isnotequal = (x!=y);
+    int x = 10, y = 4;
+    int isGreaterThan = (x>y);
+    int isEqual = x==y;
+    int isNotEqual = (x!=y);
 
-printf("Is x greaterthan y? %s\n", isgreaterthan ? "Yes": "No");
-printf("Is x equal to y? %s\n", isequal ? "Yes": "No");
-printf("Is x not equal to y? %s\n", isnotequal ? "Yes": "No");
+    printf("Is x greater than y? %s\n", isGreaterThan ? "Yes": "No");
+    printf("Is x  equal to y? %s\n", isEqual ? "Yes": "No");
+    printf("Is x not equal to y? %s\n",isNotEqual ? "Yes": "No");
 
-return 0;
-
+    return 0;
 }

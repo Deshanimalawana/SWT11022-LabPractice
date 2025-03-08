@@ -1,22 +1,22 @@
 #include <stdio.h>
-int main() {
+int main(){
+    int x = 12;
+    int y = 6;
 
-   int X=12; //1100
-   int Y=6; //0110
+    int andResult = x & y;
+    int orResult = x | y;
+    int xorResult = x ^ y;
+    int notResult = ~x;
+    int leftshift = x << 2;
+    int rightshift = y >> 1;
 
-   int andresult= X & Y;
-   int orresult= X|Y;
-   int xorresult= X^Y;
-   int notresult= ~X;
-   int leftshift= X<<2;
-   int rightshift= Y>>1;
+    printf("AND Result: %d\n", andResult);
+    printf("OR Result: %d\n", orResult);
+    printf("XOR Result: %d\n", xorResult);
+    printf("NOT Result: %d\n", notResult);
+    printf("Left Shift Result: %d\n", leftshift);
+    printf("Right Shift Result: %d\n", rightshift);
 
-   printf("ANDResult is:%d\n""Result is:%d\n""XORResult is:%d\n""NOTResult is:%d\n""LeftshiftResult is:%d\n""RightshiftResult is:%d\n",andresult,orresult,
-          xorresult,notresult,leftshift,rightshift);
+    return 0;
 
-
-   return 0;
-
-
-
-}
+    }
