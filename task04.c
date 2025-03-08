@@ -1,24 +1,7 @@
 #include <stdio.h>
-#include <string.h>
-#include <stdlib.h>
-int main(){
-
-    struct Book {
-        char title[100];
-        char author[50];
-        double price;
-
-};
-
-    struct Book myBook;
-        strcpy(myBook.title,"The University");
-        strcpy(myBook.author,"A.H.Kumar");
-        myBook.price = 66.99;
-
-        printf("Book Title:%s\n",myBook.title);
-        printf("Book Author:%s\n",myBook.author);
-        printf("Price:s%.2f\n",myBook.price);
-
-   return 0;
-
+int main() {
+    int a = 10, b = 4, c = 5;
+    int largest = (a >= b && a >= c) ? a : (b >= c ? b : c);
+    printf("The largest number is: %d\n", largest);
+    return 0;
 }
