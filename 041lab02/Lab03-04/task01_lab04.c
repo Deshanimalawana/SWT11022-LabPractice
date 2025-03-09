@@ -8,7 +8,10 @@ int main()
     int b=1000;
     int c=20000;
     //ternary operator
-    int grader = (a>b) ? printf("the largest No:%d",a): (c<b)? printf("The largest No:%d",b) : printf("The largest NO:%d",c);
-
+    int grader = (a>b)? ((a>c)? a : c) :((b>c)? b:c);
+    printf("The largest no is: %d", grader);
+    int total = a+b+c;
+    float avg = total/3;
+    printf("the average is:%.2f",avg);
     return 0;
 }

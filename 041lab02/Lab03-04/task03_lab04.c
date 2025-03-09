@@ -7,7 +7,7 @@ int main()
     int y = 5;
     printf("AND IS:%d\n", x&y);
     printf("OR IS:%d\n", x|y);
-    printf("NOT IS:%d\n", ~x);
+    printf("NOT IS:%d\n", x^y);
 
     return 0;
 }
