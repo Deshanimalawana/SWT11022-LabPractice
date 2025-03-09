@@ -14,7 +14,7 @@ int main() {
    int max = (a > b) ? ((a > c) ? a : c) : ((b > c) ? b : c);
     printf("The largest number is: %d\n", max);
     
-   float average = (a + b + c) / 3.0; // Using 3.0 to ensure floating point division
+   float average = (a + b + c) / 3.0; 
     printf("The average of the three numbers is: %.2f\n", average);
     
     return 0;
