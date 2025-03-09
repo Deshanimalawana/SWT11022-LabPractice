@@ -4,9 +4,9 @@
 
 int main()
 {
-    bool isRainy = "true";
-    bool isHolidays = "False";
-    bool isWeekend = "True";
+    bool isRainy = false;
+    bool isHolidays = false;
+    bool isWeekend = true;
 
     bool con = !isRainy && (isHolidays | isWeekend);
     printf("Is student can go trip:%s\n",con? "Yes" : "No");
