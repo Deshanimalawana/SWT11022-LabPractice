@@ -1,19 +1,21 @@
-#include<stdio.h>
-#define SPEED_OF_LIGHT 299792458
-#define GRAVITY 9.80
-#define PLANCK_CONSTANT 6.26e-34
+#include <stdio.h>
+#include <stdbool.h>
 
-int main(){
+int main() {
+    bool isRainy;
+    bool isHoliday;
+    bool isWeekend;
 
-  const float BOLTZMAN_CONSTANT=1.38e-23;
-  const int ABSOLUTE_ZERO=-273;
+     isRainy = false;
+     isHoliday = true;
+     isWeekend = false;
 
+    bool TRIP = (!isRainy && (isHoliday || isWeekend));
+    printf("The student can go on a trip? %s\n", TRIP ? "Yes" : "No");
 
-    printf("%d\n",SPEED_OF_LIGHT);
-    printf("%.2f\n",GRAVITY);
-    printf("%.2e\n",PLANCK_CONSTANT);
-    printf("%.2e\n",BOLTZMAN_CONSTANT);
-    printf("%.3d\n",ABSOLUTE_ZERO);
+    int marks =80;
+    marks += 5;
+    printf("Updated marks: %d\n", marks);
 
-return 0;
+    return 0;
 }

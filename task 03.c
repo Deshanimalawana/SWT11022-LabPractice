@@ -1,18 +1,18 @@
 #include <stdio.h>
+int main(){
+ int x;
+ int y;
 
-int main() {
-    int AccountBalance = 5000;
-    int account_balance = 4500;
-    int secondtransaction = 200;
-    int transactionAmount = 150;
-    int float_number = 100;
+ x=9;
+ y=14;
 
+ int AND = x & y ;
+ int OR = x | y ;
+ int XOR = x ^ y ;
 
-    printf("AccountBalance: %d\n", AccountBalance);
-    printf("account_balance: %d\n", account_balance);
-    printf("secondtransaction: %d\n", secondtransaction);
-    printf("transactionAmount: %d\n", transactionAmount);
-    printf("floatnumber: %d\n", float_number);
+  printf(" AND (x&y) : %d\n",AND);
+  printf(" OR (x|y) : %d\n",OR);
+  printf(" XOR (x^y) : %d\n",XOR);
 
-    return 0;
-}
+ return 0;
+ }

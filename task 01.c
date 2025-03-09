@@ -1,28 +1,15 @@
 #include<stdio.h>
+int main () {
 
-int main() {
-    int studentID;
-    float GPA;
-    char grade[3];
+int A=10;
+int B=20;
+int C=30;
 
-    studentID = 12345;
-    GPA = 3.75;
-    grade[0] = 'A';
-    grade[1] = '\0';
+int largest = (A>B && A>C)?A : (B>C)?B : C;
+printf("largest number:%d\n" ,largest);
 
-    printf("Student ID = %d\n GPA = %.2f\n Grade = %s\n",studentID,GPA,grade);
-    printf("\nUpdated Values\n");
+float average=(A+B+C)/3;
+printf("Average: %.2f\n",average);
 
-    studentID = 54321;
-    GPA = 3.90;
-    grade[0] = 'A';
-    grade[1] = '+';
-    grade[2] = '\0';
-
-    printf("Student ID = %d\n GPA = %.2f\n Grade = %s\n",studentID,GPA,grade);
-
-
-    return 0;
-
+return 0;
 }
-
