@@ -9,8 +9,8 @@ int main()
     const float BOLTZMANN = 1.38e-23;
     const int  ABSOLUTE_ZERO = -273;
 
-    printf("Speed of light : %d m/s\nGravity : %0.2f m/s²\nPlank constant : %e J·s",SPEED_OF_LIGHT,GRAVITY,PLANK_CONSTANT);
-    printf("\nBoltzman : %e J/K\nAbsolute zero : %d °C",BOLTZMANN,ABSOLUTE_ZERO);
+    printf("Speed of light : %d\nGravity : %0.2f\nPlank constant : %e",SPEED_OF_LIGHT,GRAVITY,PLANK_CONSTANT);
+    printf("\nBoltzman : %e\nAbsolute zero : %d",BOLTZMANN,ABSOLUTE_ZERO);
 
     return 0;
 }
