@@ -1,16 +1,26 @@
 #include<stdio.h>
 int main(){
-    int AccountBalance=5000;
-    int account_balance=4500;
-    int secondTransaction=200;
-    int transactionAmount=150;
-    int transactionFloat=100;
+//Declares variables
+    int studentID;
+    float GPA;
+    char grade;
+//Initializes
+    studentID=12345;
+    GPA=3.75;
+    grade='A';
+//Displays
+    printf("Student ID is : %d\n",studentID);
+    printf("GPA is : %.2f\n",GPA);
+    printf("Grade is : %c\n\n",grade);
+//Updates
+    char Grade='+';
+    studentID=54321;
+    GPA=3.90;
+    grade='A';
+//Displays the updated values
+    printf("Student ID is : %d\n",studentID);
+    printf("GPA is : %.2f\n",GPA);
+    printf("Grade is : %c%c\n",grade,Grade);
 
-    printf("Account Balance: %d\n",AccountBalance);
-    printf("Account Balance: %d\n",account_balance);
-    printf("Second Transaction: %d\n",secondTransaction);
-    printf("Transaction Amount: %d\n",transactionAmount);
-    printf("Transaction Float: %d\n",transactionFloat);
 return 0;
-
 }
