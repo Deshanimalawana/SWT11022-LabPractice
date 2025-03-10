@@ -7,10 +7,7 @@ int main()
     int b = 25;
     int c = 35;
 
-    int largest = (a>b)?(a>c ? a:c):(b>c? b:c);
-
-    printf(" The Largest number is :%d\n",largest);
-
-
+    float average = (a+b+c)/3.0;
+    printf("Average of a,b and c is: %.2f\n",average);
     return 0;
 }

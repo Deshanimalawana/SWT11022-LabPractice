@@ -1,16 +1,15 @@
 #include <stdio.h>
-#include <stdlib.h>
+#include <stdbool.h>
 
 int main()
 {
-  int x = 10,y = 4;
-  int isGreaterThan = (x>y);
-  int isequal = (x==y);
-  int isNotEqual = (x!=y);
+  bool isRainy,isHoliday,isWeekend;
+  isRainy = false;
+  isHoliday = true;
+  isWeekend = true;
 
-  printf("Is x greater than y? %s\n",isGreaterThan ? "yes": "No");
-  printf("Is x equal to y? %s\n",isequal ? "yes": "No");
-  printf("Is x not equal to y? %s\n",isNotEqual ? "yes": "No");
+  bool CanGoOnTrip = (!isRainy && (isHoliday || isWeekend));
 
+  printf("can the student go on a trip ?%s\n",CanGoOnTrip? "Yes":"No");
   return 0;
 }
