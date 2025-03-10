@@ -1,26 +1,17 @@
 #include<stdio.h>
+//Declares using #define
+#define SPEED_OF_LIGHT 299792458
+#define GRAVITY 9.81
+#define PLANCK_CONSTANT 6.626e-34
 int main(){
-//Declares variables
-    int studentID;
-    float GPA;
-    char grade;
-//Initializes
-    studentID=12345;
-    GPA=3.75;
-    grade='A';
-//Displays
-    printf("Student ID is : %d\n",studentID);
-    printf("GPA is : %.2f\n",GPA);
-    printf("Grade is : %c\n\n",grade);
-//Updates
-    char Grade='+';
-    studentID=54321;
-    GPA=3.90;
-    grade='A';
-//Displays the updated values
-    printf("Student ID is : %d\n",studentID);
-    printf("GPA is : %.2f\n",GPA);
-    printf("Grade is : %c%c\n",grade,Grade);
-
+//Declares using const
+    const float BOLTZMANN_CONSTANT = 1.38e-23;
+    const int ABSOLUTE_ZERO = -273;
+//Prints all constant
+    printf("Speed of Light : %d m/s\n",SPEED_OF_LIGHT);
+    printf("Acceleration due to gravity : %.2f m/s2\n",GRAVITY);
+    printf("Planck's constant : %.3e J.s\n",PLANCK_CONSTANT);
+    printf("Boltzmann Constant : %.2e\n",BOLTZMANN_CONSTANT);
+    printf("Absolute zero : %d Celsius\n",ABSOLUTE_ZERO);
 return 0;
 }
