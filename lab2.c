@@ -1,14 +1,10 @@
 #include <stdio.h>
 int main() {
-    int x = 10 , y = 15;
-    int isGreaterThan = (x>y);
-    int isEqual = (x==y);
-    int isNotEqual = (x!=y);
-
-    printf("is x greater than y? %s\n" , isGreaterThan ? "Yes" : "No");
-
-    printf("is x equal to y? %s\n" , isEqual ?  "Yes" : "No");
-    printf("is x not equal to y? %s\n" , isNotEqual ? "Yes" : "No");
-
+    int marks = 42;
+    if(marks>=50){
+        printf("You passed the exam.");
+    }else{
+        printf("You failed the exam.");
+    }
     return 0;
 }
