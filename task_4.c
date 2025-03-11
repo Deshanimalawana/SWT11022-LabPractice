@@ -1,6 +1,7 @@
 #include<stdio.h>
 int main(){
-    int= num1 num2 num3;
+
+    int num1, num2 ,num3;
 
     printf("Enter first number");
     scanf("%d",&num1);
@@ -20,5 +21,6 @@ int main(){
     if(num3>num2 && num3>num1){
          printf("the largest num is %d\n",num3);
     }
+
     return 0;
 }
