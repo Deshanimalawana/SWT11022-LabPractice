@@ -13,7 +13,7 @@ int main() {
     // Display result
     printf("Can the student go on a trip? %s\n", canGoOnTrip ? "Yes" : "No");
 
-    // Assignment operator: Add 5 marks to student’s current marks and display the updated marks
+    // Assignment operator: Add 5 marks to studentâ€™s current marks and display the updated marks
     int studentMarks = 75;
     studentMarks += 5;
     printf("Updated student marks: %d\n", studentMarks);
