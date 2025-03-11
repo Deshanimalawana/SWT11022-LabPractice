@@ -1,19 +1,22 @@
 #include <stdio.h>
-#include <stdlib.h>
 
-int main()
-{
-    int Marks;
-    printf("Enter Marks: ");
-    scanf("%d", &Marks);
-    if (Marks>=90){
-        printf("You are Excelent");
-    }else if(Marks>=75){
-        printf("You are Very Good");
-        }else if(Marks>=50){
-            printf("You are Good");
-            }else {
-                printf("You are Fail");
-                }
+int main() {
+    int number;
+    printf("Enter the number.");
+    scanf("%d", &number);
+
+    if (number >= 90) {
+        printf ("Grade: Excellent");
+    }
+    else if (number >= 75) {
+        printf("Grade: Very Good");
+    }
+    else if (number>= 50) {
+        printf( "Grade: Good");
+    }
+    else {
+        printf("Grade: Fail");
+    }
+
     return 0;
 }
