@@ -1,17 +1,19 @@
 #include<stdio.h>
-#include<stdbool.h>
 int main()
 {
-    bool isRainy, isHoliday, isWeekend;
-     isRainy=false;
-     isHoliday=true;
-     isWeekend=false;
+    int marks;
 
-    if(!isRainy && (isHoliday || isWeekend)){
-        printf("The student go on a trip\n");
+    printf("Enter marks: ");
+    scanf("%d",&marks);
 
+    if (marks>90){
+        printf("Grade: Excellent\n");
+    }else if (marks>=75){
+        printf("Grade:Very good\n ");
+    }else if (marks>=50){
+        printf("Grade: Good\n");
     }else{
-    printf("The students cannot go on a trip\n");
-    }
-    return 0;
+        printf("Grade: fail\n");
+        }
+        return 0;
 }
