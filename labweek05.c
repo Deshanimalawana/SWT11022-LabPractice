@@ -1,9 +1,12 @@
 #include <stdio.h>
 int main (){
 
-int temp=30;
-if (temp>25){
-    printf("it's a warm day.");
+int marks=42;
+if (marks>=50){
+    printf("You passed the exam");
+}
+else {
+    printf("You failed the exam.");
 }
 return 0;
 }
