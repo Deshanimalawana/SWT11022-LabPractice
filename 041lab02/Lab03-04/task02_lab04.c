@@ -8,7 +8,7 @@ int main()
     bool isHolidays = false;
     bool isWeekend = true;
 
-    bool con = !isRainy && (isHolidays | isWeekend);
+    bool con = !isRainy && (isHolidays || isWeekend);
     printf("Is student can go trip:%s\n",con? "Yes" : "No");
 
     int Cmarks;
