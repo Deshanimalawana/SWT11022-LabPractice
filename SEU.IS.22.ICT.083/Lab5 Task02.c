@@ -1,27 +1,27 @@
 #include <stdio.h>
 int main () {
-   int number;
-   printf("Enter your number: ",number);
-   scanf ("%d",&number);
-   if (number >= 90)
+   int marks;
+   printf("Enter marks: ",marks);
+   scanf ("%d",&marks);
+   if (marks >= 90)
    {
-       printf("Excellent");
+       printf("Grade:Excellent");
    }
    else
    {
-     if (number >=75)
+     if (marks >=75)
      {
-         printf("Very good");
+         printf("Grade:Very Good");
      }
      else
      {
-         if (number >=50)
+         if (marks >=50)
          {
-             printf("Good");
+             printf("Grade:Good");
          }
          else
          {
-             printf("fail");
+             printf("Grade:Fail");
          }
      }
    }

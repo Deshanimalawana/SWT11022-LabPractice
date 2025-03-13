@@ -3,15 +3,15 @@ int main () {
    int num =7;
    if (num > 0)
    {
-       printf("num is positive");
+       printf("The number is positive");
    }
    else if (num < 0)
    {
-       printf("num is negative");
+       printf("The number is negative");
    }
    else
    {
-       printf("num is Zero");
+       printf("The number is Zero");
    }
    return 0;
 

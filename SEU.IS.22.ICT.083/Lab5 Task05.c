@@ -6,15 +6,15 @@ int main () {
 
    if (num > 0)
    {
-       printf("num is positive");
+       printf("The number is positive.");
    }
     else if ( num < 0)
    {
-       printf("num is negative");
+       printf("The number is negative.");
    }
    else if (num ==0)
    {
-       printf("num is zero");
+       printf("The number is zero.");
    }
    return 0;
 
