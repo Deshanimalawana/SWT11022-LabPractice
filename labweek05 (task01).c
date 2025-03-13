@@ -1,21 +1,16 @@
+// Online C compiler to run C program online
 #include <stdio.h>
 int main (){
 
-int marks;
-printf("Enter your marks:");
-scanf("%d",&marks);
+int num;
+printf("Enter a number:");
+scanf("%d",&num);
 
-if (marks>=90){
-    printf("Excellent");
-}
-else if (marks>=75){
-    printf("Very Good");
-}
-else if (marks>=50){
-    printf("Good");
+if (num%2==0) {
+    printf("The number is Even");
 }
 else {
-    printf("Fail");
+    printf("The number is Odd");
 }
 return 0;
 }
