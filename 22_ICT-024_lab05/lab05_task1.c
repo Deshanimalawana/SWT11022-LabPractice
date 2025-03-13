@@ -1,10 +1,10 @@
 #include<stdio.h>
 
 int main(){
-int number;
+int number = 75;
 
-printf("Enter your number: ");
-scanf("%d", &number);
+/*printf("Enter your number: ");
+scanf("%d", &number);*/
 
 if (number%2==0){
 printf("%d is Even number", number);
