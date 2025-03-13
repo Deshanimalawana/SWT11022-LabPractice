@@ -12,10 +12,10 @@ scanf("%d",&b);
 printf("Enter a number:");
 scanf("%d",&c);
 
-if (a> b&&c) {
+if (a>b && a>c) {
     printf("The largest number is %d",a);
     }
-else if (b> a&&c) {
+else if (b>a && b>c) {
     printf("The largest number is %d",b);
 }
 else {
