@@ -1,25 +1,17 @@
 #include <stdio.h>
 int main (){
 
-int a,b,c;
+int age;
+printf("Enter your age");
+scanf("%d",&age);
 
-printf("Enter a number:");
-scanf("%d",&a);
-
-printf("Enter a number:");
-scanf("%d",&b);
-
-printf("Enter a number:");
-scanf("%d",&c);
-
-if (a>b && a>c) {
-    printf("The largest number is %d",a);
-    }
-else if (b>a && b>c) {
-    printf("The largest number is %d",b);
+if (age>=18) {
+    printf("Eligible to vote");
 }
+
 else {
-    printf("The largest number is %d",c);
+    printf("Not eligible to vote");
 }
+
 return 0;
 }
