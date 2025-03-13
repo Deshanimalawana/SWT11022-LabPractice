@@ -1,15 +1,15 @@
 #include<stdio.h>
 int main () {
-    int a, b, c;
+    int num1, num2, num3;
     printf("enter three numbers : ");
-    scanf("%d %d %d", &a, &b, &c);
+    scanf("%d %d %d", &num1, &num2, &num3);
 
-    if (a > b && a > c) {
-        printf ("The largest number is %d\n",a);
-    }else if (b > a && b > c) {
-        printf ("The largest number is %d\n",b);
+    if (num1 > num2 && num1 > num3) {
+        printf ("The largest number is %d\n",num1);
+    }else if (num2 > num1 && num2 > num3) {
+        printf ("The largest number is %d\n",num2);
     }else {
-        printf ("The largest number is %d\n",c);
+        printf ("The largest number is %d\n",num3);
     }
     return 0;
 }
