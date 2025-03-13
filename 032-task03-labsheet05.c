@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main (){
     int age;
-    printf("enter your age: ");
+    printf("Enter age: ");
     scanf("%d", &age);
 
     if (age >= 18) {
