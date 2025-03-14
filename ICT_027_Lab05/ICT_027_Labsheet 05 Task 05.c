@@ -8,13 +8,13 @@
     scanf("%d",&number);
 
     if (number>0){
-        printf("Positive");
+        printf("The number is Positive");
     }
     else if (number<0){
-        printf("Negative");
+        printf("The number is Negative");
     }
     else{
-        printf("Zero");
+        printf("The number is Zero");
     }
     return 0;
     }
