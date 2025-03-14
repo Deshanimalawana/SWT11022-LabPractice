@@ -5,10 +5,10 @@ int main()
     printf("Enter the marks:");
     scanf("%d",&marks);
     if (marks>=90){
-        printf("Grade: Excellent\n");
+        printf("Grade: Excellent");
     }
     else if (marks>=75){
-        printf("Grade: Very good\n");
+        printf("Grade: Very good");
     }
     else if (marks>=50){
         printf("Grade: Good");
