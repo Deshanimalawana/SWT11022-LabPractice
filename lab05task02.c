@@ -10,5 +10,6 @@ else if (marks >=75)
 else if (marks >=50)
 {printf("good");}
 else
-{printf("fail");}                                ;
+{printf("fail");} 
+  return 0;
 }
