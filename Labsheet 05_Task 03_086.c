@@ -9,7 +9,7 @@ int main(){
     }
 
     else{
-        printf("Not Eligible");
+        printf("Not Eligible to vote");
     }
 return 0;
 
