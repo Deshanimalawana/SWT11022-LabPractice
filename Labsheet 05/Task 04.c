@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main (){
-int num1,num2,num3,largest;
+    int num1,num2,num3,largest;
 
     printf("Enter three numbers: ");
     scanf("%d %d %d",&num1,&num2,&num3);
