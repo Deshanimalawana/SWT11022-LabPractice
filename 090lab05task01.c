@@ -2,13 +2,12 @@
 int main(){
 
     int number=7;
-    if(number%2){
+    if(number%2==1){
         printf("The number is odd.\n");
-    }
+        }
     else{
         printf("The number is even.\n");
-    }
-
+        }
 return 0;
 }
 
