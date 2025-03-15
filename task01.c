@@ -1,15 +1,13 @@
-#include<stdio.h>
-int main (){
-int number = 210; if(number%2 ==0 ){
+#include <Stdio.h>
+int main(){
+    int a = 15,b =30,c = 20;
 
-printf("the number is even\n.");
-}
-else
-printf("the number is odd\n.");
+    int largest = (a>b && a>c)? a : (b>a && b>c)? b: c;
+    printf ("the largest number is %d\n", largest);
 
- return 0;
+    float average = (a+b+c)/3.0;
+    printf ("The average of the three number is : %.2f\n",average);
 
-
-
+    return 0;
 
 }

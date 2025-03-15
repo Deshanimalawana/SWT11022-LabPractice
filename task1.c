@@ -1,12 +1,13 @@
-#include<stdio.h>
+#include <stdio.h>
 int main(){
-int studentid = 12345;
-float GPA = 3.75;
-char grade = 'A';
- printf("Your StudentID is: %d\n", studentid);
- printf("Your GPA is: %f\n", GPA);
- printf("Your Grade is: %c\n\n", grade);
+    int a = 15;
+    int b = 25;
+    int c = 10;
 
- return 0;
+    int largest = (a>b && a>c)? a:(b>c)? b: c;
+    printf("The largest number is: %d\n", largest);
+    float average = ( a + b + c )/3.0;
+    printf("The average of the three numbers is: %.2f\n", average);
 
+    return 0;
 }

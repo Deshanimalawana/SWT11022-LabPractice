@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main() {
+int main (){
 
     int condition1 = 1;
     int condition2 = 0;
@@ -13,5 +13,10 @@ int main() {
     printf("Result 2: %s\n", result2 ? "true" : "false");
     printf("Result 3: %s\n", result3 ? "true" : "false");
 
+
     return 0;
+
+
+
+
 }

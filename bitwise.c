@@ -7,16 +7,16 @@ int main(){
     int orResult = x | y;
     int xorResult = x ^ y;
     int notResult = ~x;
-    int leftShift = x << 2;
-    int rightShift = x >> 1;
+    int leftshift = x << 2;
+    int rightshift = y >> 1;
 
     printf("AND Result: %d\n", andResult);
-    printf("Or Result: %d\n", orResult);
+    printf("OR Result: %d\n", orResult);
     printf("XOR Result: %d\n", xorResult);
     printf("NOT Result: %d\n", notResult);
-    printf("Left Result: %d\n", leftShift);
-    printf("Right Result: %d\n", rightShift);
+    printf("Left Shift Result: %d\n", leftshift);
+    printf("Right Shift Result: %d\n", rightshift);
 
     return 0;
 
-}
+    }

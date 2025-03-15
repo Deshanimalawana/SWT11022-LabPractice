@@ -1,21 +1,15 @@
-#include<stdio.h>
+#include <stdio.h>
 int main(){
-int age;
-printf ("Enter the age.");
-scanf("%d", &age);
-if (age<=18){
-    printf("Not eligible to vote.");
-}else{
-printf("Eligible to vote.");
-return 0;
+    int x = 5, y = 3;
 
+    int and = x&y;
+    int or = x|y;
+    int xor = x^y;
 
+    printf("AND : %d\n", and);
+    printf("OR : %d\n", or);
+    printf("XOR : %d\n", xor);
 
+    return 0;
 
-
-
-
-
-
-
-}}
+}
