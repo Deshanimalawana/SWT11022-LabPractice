@@ -6,17 +6,17 @@ int main(){
     scanf("%d",&marks);
 
     if(marks>=90){
-      printf("Grade:Excellent");
+      printf("\nGrade:Excellent");
 
     }else if(marks>=75){
-      printf("Grade:Very Good");
+      printf("\nGrade:Very Good");
 
-    }else if(marks>=74){
-       printf("Grade:Good");
+    }else if(marks>=50){
+       printf("\nGrade:Good");
 
     }
-    else {if(marks<=50)
-      printf("Grade:Fail");
+    else {if(marks<50)
+      printf("\nGrade:Fail");
 
     }
         return 0;
