@@ -4,14 +4,14 @@
 
 int main()
 {
-    int Marks;
+    int Mark;
     printf("Enter Marks: ");
-    scanf("%d", &Marks);
-    if (Marks>=90){
+    scanf("%d", &Mark);
+    if (Mark>=90){
         printf("You are Excelent");
-    }else if(Marks>=75){
+    }else if(Mark>=75){
         printf("You are Very Good");
-        }else if(Marks>=50){
+        }else if(Mark>=50){
             printf("You are Good");
             }else {
                 printf("You are Fail");
