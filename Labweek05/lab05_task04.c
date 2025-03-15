@@ -5,7 +5,7 @@
 
 int main()
 {
-    int num01, num02, num03;
+    int num1, num2, num3;
     printf("Enter Number 01 : ");
     scanf("%d", &num01);
     printf("Enter Number 02 : ");
@@ -13,16 +13,16 @@ int main()
     printf("Enter Number 03 : ");
     scanf("%d", &num03);
 
-    if (num01<num02){
-            if (num02<num03){
-                printf("Largest Number is 3rd:%d", num03);
+    if (num1<num2){
+            if (num2<num3){
+                printf("Largest Number is 3rd:%d", num3);
             }else {
-                printf("largest Number is 2nd:%d", num02);
+                printf("largest Number is 2nd:%d", num2);
             }
-    }else if (num01<num03){
-        printf("Largest Number is 3rd:%d", num03);
+    }else if (num1<num3){
+        printf("Largest Number is 3rd:%d", num3);
         }else{
-        printf("Largest Number is 1st:%d", num01);
+        printf("Largest Number is 1st:%d", num1);
         }
 
     return 0;
