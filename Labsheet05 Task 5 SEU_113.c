@@ -15,7 +15,7 @@ int main()
         printf("The Number is Negative");
     }
 
-    else if(num==0)
+    else
         {
 
             printf("The Number is Zero");
