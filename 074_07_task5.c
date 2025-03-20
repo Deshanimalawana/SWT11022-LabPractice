@@ -6,9 +6,7 @@ int main()
 
     for(i=1; i<=10; i++){
 
-    printf("Enter the number: ");
-    scanf("%d",&i);
-
+   printf("This is bill number %d: \n",i);
         printf("Enter the units:");
         scanf("%d",&unit);
         if(unit>=50){
