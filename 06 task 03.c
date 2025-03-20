@@ -1,7 +1,10 @@
 #include<stdio.h>
 int main(){
 
-int dayorweek=5;
+int dayorweek;
+
+printf("Enter your day number:");
+scanf("%d",&dayorweek);
 
 switch(dayorweek){
 
