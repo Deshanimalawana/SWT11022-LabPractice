@@ -1,18 +1,10 @@
 #include <stdio.h>
 int main(){
- int dayofweek =3;
- switch (dayofweek) {
-   case 1:
-    printf("Monday\n");
-    break;
-   case 2:
-    printf ("Tuesday\n");
-    break;
-   case 3:
-    printf ("Wednesday\n");
-    break ;
-   default:
-    printf ("Other day");
-    }
+ int number =2;
+
+   while (number <=10) {
+    printf ("%d ",number);
+    number +=2;
+   }
 return 0;
 }
