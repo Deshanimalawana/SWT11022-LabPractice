@@ -6,7 +6,8 @@ int main()
 
     for(i=1; i<=10; i++){
 
-
+    printf("Enter the number: ");
+    scanf("%d",&i);
 
         printf("Enter the units:");
         scanf("%d",&unit);
