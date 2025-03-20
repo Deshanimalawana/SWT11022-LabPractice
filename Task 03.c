@@ -1,16 +1,12 @@
 #include <stdio.h>
 int main(){
-    int number= -7;
-    if(number>0){
-        printf("The number is positive");
+    int i = 1;
+
+    do {
+        printf("%d\n",i);
+        i++;
     }
-    else{
-        if(number<0){
-            printf("The number is negative");
-        }
-        else{
-            printf("The number is zero");
-        }
-    }
-    return 0;
+    while (i<=10);
+
+return 0;
 }

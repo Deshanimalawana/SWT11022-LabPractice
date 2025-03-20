@@ -1,25 +1,10 @@
 #include <stdio.h>
 int main(){
-    int age;
-    float income;
+    int number = 3;
 
-    printf("Enter your age:");
-    scanf("%d",&age);
-
-    printf("Enter your income:");
-    scanf("%f",&income);
-
-    if(age>=60){
-        if(income<60000){
-            printf("Eligible for tax deduction\n");
-        }
-        else{
-           printf("Not eligible for tax deduction\n");
-        } }
-    else{
-            printf("Not eligible for tax deduction\n");
-        }
-
-
+    while(number < 100){
+        printf("%d\n", number);
+        number += 2;
+    }
     return 0;
 }
