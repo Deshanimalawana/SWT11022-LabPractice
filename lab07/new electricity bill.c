@@ -3,7 +3,9 @@
 int main(){
 float bill,units;
 
-printf("Enter your units: ");
+
+for(int count=1; count<=10; count++){
+   printf("Enter your units: ");
    scanf("%f", &units);
    if (units<=50){
         bill=units*0.50;
@@ -21,4 +23,6 @@ printf("Enter your units: ");
         bill=(50*0.5)+(100*0.75)+(100*1.20)+((units-250)*1.50);
         printf("Your bill is %.2f\n", bill);
         }
+}
+return 0;
 }
