@@ -5,7 +5,9 @@ int main()
 {
     int unit;
     float amount;
+    int inputing;
 
+    for (inputing= 1; inputing<10; inputing++){
     printf("Enter the unit:");
     scanf("%d", &unit);
 
@@ -26,5 +28,6 @@ int main()
         printf("%.2f",amount);
     }
 
+}
 return 0;
 }
