@@ -1,9 +1,11 @@
 #include <stdio.h>
 int main(){
 
-    int dayofWeek = 3;
+    int dayOfWeek;
+    printf("Enter number Fisrt 3 day of a week: ");
+    scanf("%d",&dayOfWeek);
 
-    switch(dayofWeek){
+    switch(dayOfWeek){
         case 1:
             printf("Monday\n");
             break;
