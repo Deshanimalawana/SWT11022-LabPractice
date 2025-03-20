@@ -5,6 +5,7 @@ int main ()
     float billAmount = 0;
 
     for (int count = 1; count <= 10; count++) {
+        printf("This is Bill Number %d\n", count);
         printf("Enter your Consumed Electricity Units :- ");
         scanf("%d", &units);
         if (units <=50) {
