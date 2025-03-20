@@ -11,6 +11,7 @@ int main(){
         if(b>c){printf("%d",b);
         }else{printf("%d",c);}
     }else
-    {if(c>b){printf("%d",c);}else{printf("%d",b);}
+    {if(c>b){printf("%d",c);
+        }else{printf("%d",b);}
     }
 }
