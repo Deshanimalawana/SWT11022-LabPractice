@@ -5,12 +5,13 @@ float second1 = 0.75;
 float second2 = 1.20;
 float above250 = 1.5;
 float out;
+`
 int unit;
 
 printf("Enter the unit:- ");
 scanf("%d",&unit);
 if (unit<=50){
-    out = first * 50;
+    out = first * unit;
     printf("%.2f",out);
 }else if (unit<=150){
     out = (first * 50) + (unit - 50)*second1;
@@ -23,6 +24,6 @@ if (unit<=50){
     printf("%.2f",out);
 
 }
-
+return 0;
 
 }
