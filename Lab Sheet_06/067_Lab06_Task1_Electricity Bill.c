@@ -1,8 +1,9 @@
 #include <stdio.h>
 int main ()
 {
-    int units;
+    int units[10];
     float billAmount = 0;
+
 
     printf("Enter your Consumed Electricity Units :- ");
     scanf("%d", &units);
