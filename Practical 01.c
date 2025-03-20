@@ -1,16 +1,8 @@
 #include <stdio.h>
-int main() {
-    int age = 55;
-    float income = 50000.0;
+int main(){
 
-    if (age >= 60) {
-        if (income < 60000.0) {
-            printf("You are eligible for a tax deduction.\n");
-        }else{
-            printf("You are not eligible for a tax deduction.\n");
-        }
-    }else{
-        printf("You are not eligible for a tax deduction.\n");
+    for (int i = 1; i < 5; i++) {
+        printf("%d", i);
     }
 
     return 0;

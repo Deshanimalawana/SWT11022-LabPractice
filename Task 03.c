@@ -1,23 +1,13 @@
 #include <stdio.h>
-int main(){
-    int dayOfWeeek;
 
-    printf("Enter day number: ");
-    scanf("%d", &dayOfWeeek);
+int main() {
+    int number = 1;
 
-    switch (dayOfWeeek) {
-        case 1:
-            printf("Monday\n");
-            break;
-        case 2:
-            printf("Tuesday\n");
-            break;
-        case 3:
-            printf("Wednesday\n");
-            break;
-        default:
-            printf("Other day\n");
-    }
+    do {
+        printf("%d ", number);
+        number++;
+    } while (number <= 10);
 
     return 0;
+
 }

@@ -1,14 +1,13 @@
 #include <stdio.h>
-int main(){
-    int number;
-    printf("Enter your number: ");
-    scanf("%d",&number);
 
-    if (number>0){
-        printf("The number is positive");
-        }else if (number==0){
-            printf("The number is Zero");
-        }else{
-            printf("The number is negative");
+int main() {
+    for (int i = 1; i <= 20; i++) {
+        if (i % 2 != 0) {
+            continue;
         }
+        printf("%d ", i);
+    }
+
+    return 0;
 }
+

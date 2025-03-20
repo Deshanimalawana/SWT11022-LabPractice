@@ -1,20 +1,12 @@
 #include <stdio.h>
 int main(){
-    int dayOfWeeek =3;
+    int number = 2;
 
-    switch (dayOfWeeek) {
-        case 1:
-            printf("Monday\n");
-            break;
-        case 2:
-            printf("Tuesday\n");
-            break;
-        case 3:
-            printf("Wednesday\n");
-            break;
-        default:
-            printf("Other day\n");
+    while (number <= 10) {
+        printf("%d", number);
+        number += 2;
     }
 
     return 0;
+
 }

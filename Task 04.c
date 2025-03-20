@@ -1,21 +1,18 @@
 #include <stdio.h>
-int main () {
-    int x;
-    int y;
-    int z;
 
-    printf("Enter your number: ");
-    scanf("%d",&x);
-    printf("Enter your number: ");
-    scanf("%d",&y);
-    printf("Enter your number: ");
-    scanf("%d",&z);
+int main() {
+    int number;
 
-    if(x>y && x>z){
-        printf("%d is largest",x);
-    }else if(y>z && y>x){
-        printf("%d is largest",y);
-    }else{
-        printf("%d is largest",z);
+    while (1) {
+        printf("Enter a number: ");
+        scanf("%d", &number);
+
+        if (number < 0) {
+            printf("Negative number detected! Exiting...\n");
+            break;
+        }
     }
+
+    return 0;
 }
+
