@@ -1,18 +1,24 @@
 #include <stdio.h>
-int main () {
-    int marks;
-    printf("Enter your marks: ");
-    scanf("%d", &marks);
+#include <stdlib.h>
 
-    if(marks>=90){
-        printf("Excellent");
-        }else if(marks>=75){
-            printf("Very Good");
-        }else if(marks>=50){
-            printf("Good");
-        }
-    else{
-            printf("Fail");
-        }
+int main(){
+    int age;
+    float income;
 
+    printf("Enter your age: ");
+    scanf("%d",&age);
+    printf("Enter your income: ");
+    scanf("%f",&income);
+
+    if (age >= 60){
+        if (income < 60000.0){
+            printf("Eligible for tax deduction");
+        }else{
+            printf("Not eligible for tax deduction");
+        }
+    }else{
+        printf("Not eligible for tax deduction");
+    }
+
+    return 0;
 }

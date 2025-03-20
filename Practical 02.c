@@ -1,9 +1,6 @@
 #include <stdio.h>
 int main(){
-    int dayOfWeeek;
-
-    printf("Enter day number: ");
-    scanf("%d", &dayOfWeeek);
+    int dayOfWeeek =3;
 
     switch (dayOfWeeek) {
         case 1:
