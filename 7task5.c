@@ -1,9 +1,12 @@
-# include <stdio.h>
+#include<stdio.h>
 int main () {
-int num=2;
-while (num <=20){
+int num;
+for (num=1;  num<=20;  num++) {
+    if (num%2!=0){
+        continue;
+    }
     printf("%d ",num);
-    num += 2;
 }
+printf("\n");
 return 0;
 }
