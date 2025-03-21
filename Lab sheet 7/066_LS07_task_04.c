@@ -6,7 +6,7 @@ int main()
 
     while (1)
     {
-        printf("Enter a number: ");
+        printf("Enter a negative number: ");
         scanf("%d", &n);
 
         if (n < 0)
