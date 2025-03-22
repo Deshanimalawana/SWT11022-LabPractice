@@ -1,8 +1,11 @@
 #include <stdio.h>
 
 int main() {
-    int age = 65;
-    float income = 55000;
+    int age,income;
+    printf("Enter Your Age - ");
+    scanf("%d",&age);
+    printf("enter your income - ");
+    scanf("%d",&income);
 
     if (age >= 60) {
         if (income < 60000) {
