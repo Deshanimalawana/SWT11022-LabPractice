@@ -2,12 +2,12 @@
 
 int main()
 {
-    int number;
-    for(number=1; number<=20; number++){
-            if (number%2!=0){
+    int num;
+    for(num=1; num<=20; num++){
+            if (num%2==1){
                 continue;
             }
-        printf(" %d",number);
+        printf(" %d",num);
 
     }
     return 0;
