@@ -1,9 +1,22 @@
 #include <stdio.h>
-int main(){
-    float price = 99.99;
-    int quantity = 4;
-    float total = price*quantity;
 
-    printf("total:%.2f\n",total);
-    return 0;
+int main() {
+    int age, income;
+
+    printf("Enter your age: ");
+    scanf("%d", &age);
+    printf("Enter your income: ");
+    scanf("%d", &income);
+
+    if (age >= 60) {
+        if (income < 60000) {
+            printf("Eligible for tax deduction.\n");
+        } else {
+            printf("Not eligible for tax deduction.\n");
+        }
+    } else {
+        printf("Not eligible for tax deduction.\n");
     }
+
+    return 0;
+}
