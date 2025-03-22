@@ -5,31 +5,25 @@ int main()
     float unit;
     printf("Enter your electricity UNIT:");
     scanf("%f",&unit);
-    float first50=unit*0.5;
-    float a=unit-50;
-    float first100=a*0.75;
-    float b=unit-150;
-    float second100=b*1.20;
-    float c=unit-250;
-    float above250=c*1.50;
+    float price;
 
 
     if(unit<=50){
-
-        printf("Total bill is: %f",first50);
+            float first=unit*0.5;
+        printf("Total bill is: %f",first);
          }
 
     else if(unit<=150){
-
-        printf("Total bill is: %f",first50+first100);
+        float second=(unit-50)*0.75+(0.5*50);
+        printf("Total bill is: %f",second);
          }
     else if(unit<=250){
-
-        printf("Total bill is: %f",first50+first100+second100);
+        float third=(unit-150)*1.20+(0.5*50)+(0.75*100);
+        printf("Total bill is: %f",third);
     }
    else if(unit>250){
-
-        printf("Total bill is: %f",first50+first100+second100+above250);
+        float fourth=(unit-250)*1.50+(0.5*50)+(0.75*100)+(100*1.20);
+        printf("Total bill is: %f",fourth);
             }
     return 0;
 }
