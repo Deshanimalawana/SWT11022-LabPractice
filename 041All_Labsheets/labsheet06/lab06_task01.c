@@ -11,19 +11,16 @@ int main()
 
     if (unit<=50){
         amount= 0.50*50;
-        printf("%.2f", amount);
-    }
-    else if (unit<=150){
+        printf("BIll amount is %.2f", amount);
+    }else if (unit<=150){
         amount = ((unit-50)*0.75 + 50*0.50);
-        printf("%.2f",amount);
-    }
-    else if(unit <=250){
+        printf("BIll amount is %.2f",amount);
+    }else if(unit <=250){
         amount = ((unit - 150)*1.20 + 50*0.50 + 100*0.75);
-        printf("%.2f", amount);
-    }
-    else{
+        printf("BIll amount is %.2f", amount);
+    }else{
         amount = ((unit-250)*1.50 + 50*0.50 + 100*0.75 + 100*1.20);
-        printf("%.2f",amount);
+        printf("BIll amount is %.2f",amount);
     }
 
 return 0;
