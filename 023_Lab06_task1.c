@@ -5,7 +5,6 @@ int main()
     float unit;
     printf("Enter your electricity UNIT:");
     scanf("%f",&unit);
-    float price;
 
 
     if(unit<=50){
