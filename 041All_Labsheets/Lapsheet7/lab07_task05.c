@@ -4,11 +4,11 @@
 int main()
 {
     int number;
-    for (number = 0; number<20; number++){
-        if(number%2==0){
-            printf("%d\n", number);}
+    for (number = 1; number<20; number++){
+        if(number%2==1){
+            continue;}
         else{
-            continue;
+            printf("%d\n", number);
         }
     }
     return 0;

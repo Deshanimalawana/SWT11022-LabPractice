@@ -6,7 +6,7 @@ int main()
     char alph = 'A';
 
     for(alph = 'A'; alph <= 'Z'; alph++){
-        printf("%c\n", alph );
+        printf("%c\t", alph );
     }
     return 0;
 }
