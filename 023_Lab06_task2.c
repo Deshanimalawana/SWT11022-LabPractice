@@ -3,16 +3,19 @@
 
 int main()
 {
-    int age=22;
+    int age=56;
     int income=57000;
-    if(age>=60 && income<60000){
-        printf("eligible for tax deduction\n");
+    if(age>=60){
+        if(income<60000){
+            printf("Eligible fir tax deduction");
+        }
+        else {
+            printf("Not eligible for tax dduction");
+        }
     }
-    if (age>=60 && income>=60000){
-        printf("Not eligible for tax deduction\n");
+    else{
+        printf("Not eligible for tax deduction");
     }
-    if (age<60){
-        printf("Not eligible for tax deduction\n");
-    }
+
     return 0;
 }
