@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main (){
-   int unit;
+   float unit;
 
    float bill;
    float first = 0.5;
@@ -9,7 +9,7 @@ int main (){
    float above = 1.50;
 
    printf("Enter Number of units:");
-   scanf("%d",&unit);
+   scanf("%f",&unit);
 
    if (unit<=50){
     bill= first * unit;
