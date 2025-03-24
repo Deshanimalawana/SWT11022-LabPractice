@@ -1,13 +1,13 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main( ){
-    int natural;
+int main() {
+    int i = 1;
 
-    do{
-        printf("Enter natural no:");
-        scanf("%d",&natural);
+    do {
+        printf("%d\n", i);
+        i++;
+    } while (i <= 10);
 
-    }while(natural<=0);
-        printf("You entered a natural no:%d\n",natural);
-         return 0;
+    return 0;
 }
+
