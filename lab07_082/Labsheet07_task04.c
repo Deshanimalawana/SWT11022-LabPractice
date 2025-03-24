@@ -1,11 +1,20 @@
-#include<stdio.h>
-int main( ){
-    int negative;
+#include <stdio.h>
 
-   do {
-     printf("Enter a negative  number: ");
-     scanf("%d",&negative);
-   } while (negative >=0);
-   printf("You entered negative number: %d",negative);
-   return 0;
+int main() {
+    int num;
+
+    while (1) {
+        printf("Enter a number: ");
+        scanf("%d", &num);
+
+        if (num < 0) {
+            break;  
+        }
+
+        printf("You entered: %d\n", num);
+    }
+
+    printf("Negative number entered.\n");
+    return 0;
 }
+
