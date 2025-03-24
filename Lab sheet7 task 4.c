@@ -2,13 +2,15 @@
 
 int main() {
      int input;
-
-     do {
+     while (1) {
         printf("Enter a negative number: ");
         scanf("%d", &input);
-     }
-     while (input >=0);
+          
+     if(input<0);
         printf("You entered a negative number: %d\n", input);
+          break;
+     }
+}
      return 0;
 
 
