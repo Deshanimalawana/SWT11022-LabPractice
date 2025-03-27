@@ -1,18 +1,26 @@
 #include<stdio.h>
+int fibonacci(int n);
+
+int fibonacci(int n){
+    if(n==0){
+        return 0;
+    }else if(n==1){
+        return 1;
+    }else{
+        return  fibonacci(n-1)+fibonacci(n-2);
+    }
+}
 int main()
 {
+    int n;
+    printf("The number is: ",n);
+    scanf("%d",&n);
 
-    int x=10, y=4;
-    int sum=x+y;
-    int difference=x-y;
-    int product=x*y;
-    int quotient=x/y;
-    int reminder= x%y;
 
-    printf("sum: %d\n",sum);
-    printf("Difference: %d\n",difference);
-    printf("product: %d\n",product);
-    printf("quotient: %d\n",quotient);
-    printf("reminder: %d\n",reminder);
+    printf(" %d : \n",n);
+    for (int i=0; i<n; i++){
+        printf("%d",fibonacci(i));
+    }
+    printf("\n");
     return 0;
 }

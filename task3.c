@@ -1,15 +1,19 @@
 #include<stdio.h>
+int gcd(int a, int b);
+
+int gcd(int a, int b){
+    if(b==0){
+        return a;
+    }else{
+    return gcd(b,a % b);
+}
+
 int main()
 {
+    int num1,num2;
+    printf("Enter the two numbers");
+    scanf("%d %d",&num1,&num2);
 
-    int x=10, y=4;
-    int isGreaterthen=(x>y);
-    int isEqual= (x==y);
-    int isNotEqual= (x!=y);
-
-    printf("is x is greater then y? %s\n",isGreaterthen ?"Yes":"No");
-    printf("is x is equal to y? %s\n",isEqual ?"Yes":"No");
-    printf("is x is not equal to y? %s\n",isNotEqual ?"Yes":"No");
+    printf("The gcd is: %d,%d",num1,num2,gcd(num1,num2));
     return 0;
-
 }
