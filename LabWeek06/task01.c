@@ -5,7 +5,7 @@ float second1 = 0.75;
 float second2 = 1.20;
 float above250 = 1.5;
 float out;
-`
+
 int unit;
 
 printf("Enter the unit:- ");
