@@ -14,6 +14,6 @@ int main()
     printf("Enter the two numbers");
     scanf("%d %d",&num1,&num2);
 
-    printf("The gcd is: %d,%d",num1,num2,gcd(num1,num2));
+    printf("The gcd is: %d,%d,%d",num1,num2,gcd(num1,num2));
     return 0;
 }
