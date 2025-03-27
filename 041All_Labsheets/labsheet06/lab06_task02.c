@@ -3,19 +3,20 @@
 
 int main()
 {
-    int dayofweek = 3;
-    switch(dayofweek){
-    case 1:
-        printf("Monday");
-        break;
-    case 2:
-        printf("Tuesday");
-        break;
-    case 3:
-        printf("Wednesday");
-        break;
-    default:
-        printf("Other days");
+    int age = 60;
+    int income = 50000;
+
+    if (age>=60){
+        if(income<60000){
+            printf("Eligible for tax deduction");
+        }
+        else if (income >=60000){
+            printf("Not eligible for tax deduction");
+        }
     }
+    else{
+        printf("Not eligible for tax deduction");
+    }
+
     return 0;
 }

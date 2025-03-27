@@ -5,7 +5,7 @@ int main()
 {
     int odd = 1;
     while(odd<100){
-        printf("%d\n", odd);
+        printf("%d\t",odd);
         odd+=2;
     }
 }
