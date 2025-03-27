@@ -1,10 +1,24 @@
 #include <stdio.h>
-int main(){
-    int id = 101;
-    char section = 'B';
-    float marks = 89.5;
-
-    printf("ID:%d,Section:%c,Marks:%.2f\n",id,section,marks);
+int isPrime(int num);
+int main() {
+    int number;
+    printf("Enter a number : ");
+    scanf("%d", &number);
+    if (isPrime(number)) {
+        printf("%d is a prime number.\n", number);
+    } else {
+        printf("%d is not a prime number.\n", number);
+    }
     return 0;
-
+}
+int isPrime(int num) {
+    if (num <= 1) {
+        return 0;
+    }
+    for (int i = 2; i * i <= num; i++) {
+        if (num % i == 0) {
+            return 0;
+        }
+    }
+    return 1;
 }
