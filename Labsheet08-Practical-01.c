@@ -6,7 +6,7 @@ int square (int num) {
 
 int main () {
     int number = 5;
-    int result = squre (number);
+    int result = square (number);
     printf("The square of %d is %d\n", number,result);
     return 0;
 }
