@@ -15,7 +15,7 @@ int main(){
 int num;
 printf("enter number :");
 scanf("%d",&num);
-if(isprime(num)){
+if(isPrime(num)){
     printf("%d is a prime number",num);
 }else{
     printf("%d is not a prime number",num);}
