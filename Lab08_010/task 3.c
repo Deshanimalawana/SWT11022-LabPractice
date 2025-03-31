@@ -8,6 +8,6 @@ int num1, num2;
 printf("enter two numbers:");
 scanf(" %d %d",&num1,&num2);
 int result = gcd(num1,num2);
-printf("gcd is:",num1,num2,result);
+printf("gcd of %d and %d : %d",num1,num2,result);
 return 0;
 }
