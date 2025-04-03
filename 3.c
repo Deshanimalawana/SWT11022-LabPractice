@@ -1,13 +1,22 @@
 #include <stdio.h>
-int main ()
-{
-    float payrate;
-    int hours;
-    printf("Enter total worked hours:");
-    scanf("%d", &hours);
-    printf("Enter pay rate:");
-    scanf("%f",&payrate);
-    printf("Your pay rate:%.2f, worked hours: %d\n",payrate,hours);
-    return 0;
+int main() {
 
+    float numbers[10];
+    float max_value;
+    printf("Enter 10 numbers:\n");
+
+        for (int i = 0; i < 10; i++) {
+        printf("Number %d: ", i + 1);
+        scanf("%f", &numbers[i]);
+    }
+max_value = numbers[0];
+
+    for (int i = 1; i < 10; i++) {
+        if (numbers[i] > max_value) {
+            max_value = numbers[i];
+        }
+    }
+     printf("\nThe maximum value is: %.2f\n", max_value);
+
+    return 0;
 }
