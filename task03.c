@@ -1,17 +1,18 @@
 #include <stdio.h>
-int main(){
-    float payRate;
-    int hours;
+int gcd(int a, int b) {
+    if (b == 0)
+        return a;
+    else
+        return gcd(b, a % b);
+}
 
-    printf("Enter total worked hours: ");
-    scanf("%d", &hours);
-    printf("Enter pay rate: ");
-    scanf("%f", &payRate);
-    float Salary = hours*payRate;
-    printf("Your Pay Rate: %.2f, Worked Hours: %d\n",payRate, hours);
-    printf("Salary: %.2f", Salary);
+int main() {
+    int num1, num2;
+    printf("Enter two numbers: ");
+    scanf("%d %d", &num1, &num2);
+
+
+    printf("GCD of %d and %d is: %d\n", num1, num2, gcd(num1, num2));
+
     return 0;
-
-
-
 }
