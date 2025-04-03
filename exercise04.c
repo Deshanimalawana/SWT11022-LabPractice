@@ -1,19 +1,21 @@
-#include<stdio.h>
-#include <string.h>
-int main(){
-    struct Book{
-    char title[100];
-    char author[50];
-    double price;
-    };
+#include <stdio.h>
 
-    struct Book myBook;
-    strcpy(myBook.title,"The Great Gatsby");
-    strcpy(myBook.author,"F. Scott Fitzgerald");
-    myBook.price = 15.56;
+int main() {
+    char characters[10];
 
-    printf("Book Tile:%s\n",myBook.title);
-    printf("Author:%s\n",myBook.author);
-    printf("Price:$%.2f\n",myBook.price);
+    printf("Enter 10 characters: ");
+    for (int i = 0; i < 10; i++) {
+        scanf(" %c", &characters[i]); // Space before %c to handle newline character
+    }
+
+    for (int i = 0; i < 10; i++) {
+        if (characters[i] >= 'A' && characters[i] <= 'Z') {
+            printf("%c is Uppercase\n", characters[i]);
+        } else if (characters[i] >= 'a' && characters[i] <= 'z') {
+            printf("%c is Lowercase\n", characters[i]);
+        } else {
+            printf("%c is not an alphabet\n", characters[i]);
+        }
+    }
     return 0;
 }
