@@ -25,6 +25,10 @@ int fibonacci(int n) {
         return n;
     }
     return fibonacci(n - 1) + fibonacci(n - 2);
+}  
+return 0;
+}
+return 0;
 }
 
 
