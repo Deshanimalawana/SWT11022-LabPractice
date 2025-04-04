@@ -6,7 +6,7 @@ int main ()
 
     printf("Enter the Ten Numbers -->\n");
     for (int a = 0; a < 10; a++) {
-        printf("Marks %d = ",a+1);
+
         scanf("%f",&Num[a]);
     }
     Max_value = Num[0];
@@ -16,6 +16,6 @@ int main ()
                 Max_value = Num[x];
         }
     }
-    printf("\nThe Largest Number is = %.2f\n", Max_value);
+    printf("\nThe Largest Number is = %.0f\n", Max_value);
     return 0;
 }
