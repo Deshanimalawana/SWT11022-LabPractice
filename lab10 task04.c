@@ -1,27 +1,23 @@
 #include <stdio.h>
-#include <ctype.h>
 
 int main() {
-    char inputs[10];
+    char letters[10];
+    int i;
 
-    printf("Enter 10 characters:\n");
+    printf("Enter 10 Characters:\n");
 
-    for (int i = 0; i < 10; i++) {
-        printf("Enter character %d: ", i + 1);
-        scanf(" %c", &inputs[i]);
+    for (i = 0; i < 10; i++) {
+        printf("Character %d: ", i + 1);
+        scanf(" %c", &letters[i]);
     }
 
-    printf("\nChecking case of entered characters:\n");
-
-    for (int i = 0; i < 10; i++) {
-        if (isalpha(inputs[i])) {
-            if (islower(inputs[i])) {
-                printf("'%c' is a lower-case alphabet.\n", inputs[i]);
-            } else if (isupper(inputs[i])) {
-                printf("'%c' is an upper-case alphabet.\n", inputs[i]);
-            }
+    for (i = 0; i < 10; i++) {
+        if (letters[i] >= 'A' && letters[i] <= 'Z') {
+            printf("%c is an uppercase letter\n", letters[i]);
+        } else if (letters[i] >= 'a' && letters[i] <= 'z') {
+            printf("%c is a lowercase letter\n", letters[i]);
         } else {
-            printf("'%c' is not an alphabet.\n", inputs[i]);
+            printf("%c is not an alphabet\n", letters[i]);
         }
     }
 
