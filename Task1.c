@@ -1,14 +1,22 @@
 #include <stdio.h>
-int main() {
-    int a = 10, b = 25, c = 15;
+int isPrime (int num) {
+    if (num <= 1)
+        return 0;
 
-    int largest = (a > b) ? ((a > c) ? a : c) : ((b > c) ? b : c);
+    for (int i = 2; 1 <= num; i++){
+        if (num % i == 0)
+            return 0;
+    }
+    return 1;
+}
+int main(){
+    int num;
+    printf("Enter a number : ");
+    scanf("%d",&num);
 
-    float average = (a + b + c) / 3.0;
-
-    printf("Numbers: a = %d, b = %d, c = %d\n", a, b, c);
-    printf("Largest Number: %d\n", largest);
-    printf("Average: %.2f\n", average);
-
+    if (isPrime(num))
+        printf("%d is a prime number.\n",num);
+    else
+        printf("%d is not a prime number.\n",num);
     return 0;
 }
