@@ -8,9 +8,9 @@ int n;
 printf("enter number:");
 scanf("%d",&n);
 
-printf("fibonacci series",n);
+printf("fibonacci series up to  %d \n",n);
 for(int i=0; i<n; i++){
-    printf("%d",i);
+    printf("%d ",fibonacci(i));
 }
 printf("\n");
 return 0;
