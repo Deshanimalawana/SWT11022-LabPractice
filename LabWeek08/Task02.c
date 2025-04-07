@@ -6,7 +6,9 @@ int fibonacci(int n){
     }
     }
 
-
 int main(){
-    printf("%d",fibonacci(10));
+    int num;
+    printf("Enter a number: ");
+    scanf("%d",&num);
+    printf("%d",fibonacci(num));
 }
