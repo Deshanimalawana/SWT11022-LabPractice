@@ -20,6 +20,6 @@ int main () {
         }else{
         printf("\n%.2f is not present in array!",digits);
         }
-
+return 0;
 
 }
