@@ -18,6 +18,5 @@ int main(){
     int userin =0;
     printf("Enter to find out whether it is prime or not:");
     scanf("%d",&userin);
-    int prime = isPrime(userin);
     printf("%d",isPrime(userin));
 }

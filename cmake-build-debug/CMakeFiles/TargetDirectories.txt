@@ -1,0 +1,3 @@
+C:/Users/piragenth/Documents/GitHub/SWT11022-LabPractice/cmake-build-debug/CMakeFiles/SWT11022_LabPractice.dir
+C:/Users/piragenth/Documents/GitHub/SWT11022-LabPractice/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/piragenth/Documents/GitHub/SWT11022-LabPractice/cmake-build-debug/CMakeFiles/rebuild_cache.dir

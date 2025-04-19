@@ -5,5 +5,5 @@ int main (){
     char title[100];
     char author[50];
     double price;
-    };str
+    };
 return 0}
