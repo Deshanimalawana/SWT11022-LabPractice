@@ -1,17 +1,17 @@
 #include <stdio.h>
-int main(){
-    int number;
-    printf("Enter a number");
-    scanf("%d",&number);
+int main (){
+    float length ;
+    float width ;
 
-    if (number>0){
-        printf("The number is Positive");
-    }
-    else if (number<0){
-        printf("The number is negative");
-    }
-    else {
-        printf("The number is zero");
-    }
+    printf ("Length of the rectangle: ");
+    scanf ("%f", &length);
+
+    printf("Width of the rectangle:");
+    scanf ("%f", &width);
+
+    float Area = length*width;
+
+    printf("Area of the rectangle: %.4f\n", Area);
     return 0;
+
 }

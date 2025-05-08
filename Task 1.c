@@ -1,13 +1,16 @@
-#include<stdio.h>
+#include <stdio.h>
 int main (){
-    int number;
-    printf("Enter a number");
-    scanf("%d",&number);
-    if (number % 2==0){
-            printf("The number is even");
-    }
-    else{
-        printf("The number is odd ");
-    }
+    int id= 101;
+    char section = 'B';
+    float marks = 89.5;
+
+    printf("ID: %d, Section: %c, Marks: %.2f\n", id,section,marks);
     return 0;
+
+
+
+
+
+
+
 }

@@ -1,19 +1,23 @@
 #include <stdio.h>
-int main (){
-    int a;
-    int b;
-    int c;
-    printf("Enter three number:");
-    scanf("%d %d %d",&a,&b,&c);
+#include <string.h>
+int main(){
 
-    if(a>b && a>c){
-        printf("The largest number is %d",a);
-    }
-    else if (b>c && b>a){
-        printf("The largest number is %d",b);
-    }
-    else {
-        printf("The largest number is %d",c);
-    }
+    char firstname[50];
+    char lastname [50];
+    int b irthyear = 2000;
+
+
+
+    printf("What is your firstname? ");
+    scanf ("%s", &firstname);
+
+    printf("What is your lastname?");
+    scanf ( "%s", &lastname);
+
+    printf("What is your birth year?");
+    scanf ("%d", &birthyear);
+
+    printf("%s %s was born in %d\n",firstname,lastname,birthyear);
+
     return 0;
 }
