@@ -4,24 +4,31 @@ int main(){
     float Float_var = 57.234;
     char char_var ='A';
 
-    int *p1;
-    int *p2;
-    int *p3;
+    int *int_var_pointer =&int_var;
+    float *Float_var_pointer=&Float_var;
+    char *char_var_pointer=&char_var;
 
-    p1 =&int_var;
-    p2 =&Float_var;
-    p3 =&char_var;
 
-    printf("The value of int_var is : %d\n",int_var);
-    printf("The Address of int_var is : %p\n",(void*)p1);
-    printf("The Value of Float_var is :.%3f\n",Float_var);
-    printf("The Address of Float_Vvar is :%p\n",(void*)p2);
-    printf("The value of char_var is:%d\n",char_var);
-    printf("The Address of char_var is :%p",(void*)p3);
+    printf("Normal Value:\n");
+    printf("%d \n%.3f\n%c\n ",int_var,Float_var,char_var);
+    printf("\n");
+
+    printf("Adress of Above Variable:\n");
+    printf("%p\n%p\n%p\n",&int_var,&Float_var,&char_var);
+    printf("\n");
+
+    printf("Pointers Value :\n");
+    printf("%d\n%.3f\n%c\n",*int_var_pointer,*Float_var_pointer,*char_var_pointer);
+    printf("\n");
+
+    printf("Arithmatic operators:\n");
+    printf("%d\n",*int_var_pointer+1);
+    printf("%.3f\n",*Float_var_pointer+1);
+    printf("%c\n",*char_var_pointer+1);
+
 
     return 0;
 
 
-
-
 }
+
