@@ -1,0 +1,20 @@
+
+#include <stdio.h>
+
+int main() {
+    int arr[10];
+
+    // Read 10 integers
+    printf("Enter 10 integers:\n");
+    for(int i = 0; i < 10; i++) {
+        scanf("%d", &arr[i]);
+    }
+
+    // Print in reverse order
+    printf("Array in reverse order:\n");
+    for(int i = 9; i >= 0; i--) {
+        printf("%d ", arr[i]);
+    }
+
+    return 0;
+}
